@@ -1,8 +1,0 @@
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Domain.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Domain.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.csprojAssemblyReference.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.AssemblyInfoInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.AssemblyInfo.cs
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.csproj.CoreCompileInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.pdb

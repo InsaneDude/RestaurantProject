@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Services/ChiefsService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Abstract/IChiefsService.cs" root0="SKIP_HIGHLIGHTING" />
@@ -50,6 +53,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1oW5S28TaVzrydH7hAzq2sQZEid" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +76,7 @@
       <workItem from="1613393055163" duration="9751000" />
       <workItem from="1620127311215" duration="1390000" />
       <workItem from="1620228977185" duration="1895000" />
-      <workItem from="1620288988086" duration="291000" />
+      <workItem from="1620288988086" duration="873000" />
     </task>
     <servers />
   </component>
