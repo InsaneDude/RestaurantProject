@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="" />
+    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="deleted all unnecessary stuff">
+      <change afterPath="$PROJECT_DIR$/Domain/Chief.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Food.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,11 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Services/ChiefsService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Services/Abstract/IChiefsService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mapper/ChiefMapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,12 +73,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1oW5S28TaVzrydH7hAzq2sQZEid" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -76,8 +99,16 @@
       <workItem from="1613393055163" duration="9751000" />
       <workItem from="1620127311215" duration="1390000" />
       <workItem from="1620228977185" duration="1895000" />
-      <workItem from="1620288988086" duration="873000" />
+      <workItem from="1620288988086" duration="1209000" />
     </task>
+    <task id="LOCAL-00001" summary="deleted all unnecessary stuff">
+      <created>1620289993704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620289993704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,17 +117,24 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="deleted all unnecessary stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted all unnecessary stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620229822939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="200" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620229822939" />
-    <state x="613" y="313" key="Github.ShareDialog" timestamp="1613395399655">
+    <state x="613" y="313" key="Github.ShareDialog" timestamp="1620289825610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="613" y="313" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1613395399655" />
+    <state x="613" y="313" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1620289825610" />
+    <state x="511" y="115" key="Github.UntrackedFilesDialog" timestamp="1620289839665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620289839665" />
     <state x="338" y="154" key="Rider.ProjectTemplateDialog.Size" timestamp="1620229903491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -109,6 +147,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613394431328" />
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2" timestamp="1620290023090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620290023090" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1613401251901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
