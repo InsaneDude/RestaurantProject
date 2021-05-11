@@ -1,8 +1,9 @@
-C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.csprojAssemblyReference.cache
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.AssemblyInfoInputs.cache
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.AssemblyInfo.cs
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.csproj.CoreCompileInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.exe.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.exe
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.exe

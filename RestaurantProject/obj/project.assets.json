@@ -1,7 +1,8 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {}
+    ".NETFramework,Version=v4.7.2": {},
+    ".NETFramework,Version=v4.7.2/win7-x86": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -46,6 +47,11 @@
       "net472": {
         "targetAlias": "net472",
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
       }
     }
   }

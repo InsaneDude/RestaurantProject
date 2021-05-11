@@ -41,6 +41,11 @@
           "targetAlias": "net472",
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
       }
     }
   }

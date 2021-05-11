@@ -8,5 +8,6 @@ namespace Domain
         public float Weight { get; set; }
         public float CookingTime { get; set; }
         public int ChiefId { get; set; }
+        public List<Ingredient> Ingredients { get; set; }
     }
 }

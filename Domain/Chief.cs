@@ -1,4 +1,4 @@
-namespace Domain.Chief
+namespace Domain
 {
     public class Chief
     {
