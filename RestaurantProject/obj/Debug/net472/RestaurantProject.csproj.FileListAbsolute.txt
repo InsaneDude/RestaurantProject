@@ -7,3 +7,6 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.exe.config
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\RestaurantProject.exe
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.exe
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Domain.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Domain.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.csproj.CopyComplete

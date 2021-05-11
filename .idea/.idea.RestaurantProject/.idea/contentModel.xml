@@ -32,6 +32,7 @@
         <e p="FoodNeedInstrument.cs" t="Include" />
         <e p="HighLevelChief.cs" t="Include" />
         <e p="Ingredient.cs" t="Include" />
+        <e p="Instrument.cs" t="Include" />
         <e p="LowLevelChief.cs" t="Include" />
         <e p="Menu.cs" t="Include" />
         <e p="MidLevelChief.cs" t="Include" />

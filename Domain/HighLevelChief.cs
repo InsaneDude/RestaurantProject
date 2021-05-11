@@ -2,6 +2,12 @@ namespace Domain
 {
     public class HighLevelChief : Chief
     {
-        public int ChiefLevel = 3;
+        private int _level;
+
+        public override int ChiefLevel
+        {
+            get { return 3; }
+            set { _level = value; }
+        }
     }
 }

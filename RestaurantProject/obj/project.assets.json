@@ -1,12 +1,42 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {},
-    ".NETFramework,Version=v4.7.2/win7-x86": {}
+    ".NETFramework,Version=v4.7.2": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": []
+    ".NETFramework,Version=v4.7.2": [
+      "Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\insane_dude\\.nuget\\packages\\": {}
@@ -34,7 +64,11 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
