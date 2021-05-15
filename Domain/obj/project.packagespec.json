@@ -15,7 +15,14 @@
     },
     "frameworks": {
       "net472": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj"
+          },
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

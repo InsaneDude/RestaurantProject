@@ -1,11 +1,8 @@
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\bin\Debug\net472\Data.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\bin\Debug\net472\Data.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\bin\Debug\net472\Entities.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\bin\Debug\net472\Entities.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.csprojAssemblyReference.cache
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.AssemblyInfoInputs.cache
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.AssemblyInfo.cs
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.csproj.CoreCompileInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.csproj.CopyComplete
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Data\obj\Debug\net472\Data.pdb
