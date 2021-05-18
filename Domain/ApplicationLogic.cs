@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Entities;
 
@@ -16,9 +17,17 @@ namespace Domain
             UsedInstrumentData = new InstrumentData();
         }
         
-        public void ReserveFood(Food newFood)
+        public void ReserveFood(Food reservedFood)
         {
-            return;
+            switch (reservedFood.FoodNeedsInstrument)
+            {
+                case true:
+                    Console.WriteLine("true");
+                    break;
+                case false:
+                    Console.WriteLine("false");
+                    break;
+            }
         }
         
         public List<Chief> GetAllChiefs()

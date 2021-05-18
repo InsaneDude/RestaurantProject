@@ -1,5 +1,8 @@
 using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using Domain;
+using Entities;
 
 namespace RestaurantProject
 {
@@ -8,34 +11,41 @@ namespace RestaurantProject
         public static void Main(string[] args)
         {
             ApplicationLogic appLogic = new ApplicationLogic();
-            Console.WriteLine("Вітаємо вас у нашому ресторані."); 
+            Console.WriteLine("Приветствуем Вас в нашем ресторане."); 
             while (true)
             {
-                Console.WriteLine("Якщо ви бажаєте переглянути меню - введіть цифру 1." +
-                                  "\nЯкщо ви бажаєте замовити - введіть цифру 2." +
-                                  "\nЯкщо ви закінчили роботу з програмою - введіть цифру 3.");
+                Console.WriteLine("Если Вы желаете посмотреть меню - введите цифру 1." +
+                                  "\nЕсли Вы желаете заказать что-либо - введите цифру 2." +
+                                  "\nЕсли вы закончили работу с программой - введите цифру 3.");
                 int inputedNumber = Convert.ToInt32(Console.ReadLine());
                 switch (inputedNumber)
                 {
                     case 1:
-                        Console.WriteLine("Пока что тут ничего нету" + "\n");
+                        Console.WriteLine("Меню : ");
+                        foreach (var selectedFood in appLogic.GetAllFoods())
+                        {
+                            Console.WriteLine($"№{selectedFood.Id} : {selectedFood.Name}, порция весит {selectedFood.Weight} грамм, время ожидания {selectedFood.CookingTime} секунд.");
+                        }
+                        Console.WriteLine();
                         break;
                     case 2:
-                        foreach (var selectedChief in appLogic.GetAllChiefs())
+                        Console.WriteLine("Введите номер блюда, которое Вы желаете заказать : ");
+                        int counter = 0;
+                        foreach (var selectedFood in appLogic.GetAllFoods())
                         {
-                            Console.WriteLine(selectedChief.Name);
+                            counter++;
+                            Console.WriteLine($"{counter} : {selectedFood.Name}");
                         }
-                        Console.WriteLine("");
+                        int foodSelectionNumber = Convert.ToInt32(Console.ReadLine());
+                        Food gettingFoodToServe = appLogic.GetAllFoods()[foodSelectionNumber-1];
+                        Console.WriteLine(gettingFoodToServe.Name);
                         break;
                     case 3:
-                        Console.WriteLine("test" + "\n");
-
-                        break;
-                    case 4:
-                        Console.WriteLine("Завершуємо роботу." + "\n");
+                        Console.WriteLine("Завершение работы программы.");
+                        Environment.Exit(1);
                         break;
                     default:
-                        Console.WriteLine("Введіть одну із вищевказаних цифер" + "\n");
+                        Console.WriteLine("Введите одну из вышеуказанных цифер" + "\n");
                         break;
                 }
             }

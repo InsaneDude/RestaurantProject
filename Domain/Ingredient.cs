@@ -5,6 +5,18 @@ namespace Domain
         Bread,
         Carrot,
         Potato,
-        Tomato
+        Tomato,
+        Water,
+        Meat,
+        // SourCream,
+        // Rice,
+        Pasta,
+        Cucumber,
+        Cheese,
+        Flour,
+        Cabbage,
+        Apple,
+        Strawberry,
+        Cherry
     }
 }
