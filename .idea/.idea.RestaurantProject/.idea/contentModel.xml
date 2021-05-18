@@ -6,10 +6,7 @@
     <e p="C:\Users\insane_dude\RiderProjects\RestaurantProject" t="IncludeFlat">
       <e p="Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ChiefData.cs" t="Include" />
         <e p="Data.csproj" t="IncludeRecursive" />
-        <e p="FoodData.cs" t="Include" />
-        <e p="InstrumentData.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net472" t="Include">
@@ -22,11 +19,13 @@
         <e p="ApplicationLogic.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Chief.cs" t="Include" />
+        <e p="ChiefData.cs" t="Include" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="Food.cs" t="Include" />
+        <e p="FoodData.cs" t="Include" />
         <e p="Ingredient.cs" t="Include" />
         <e p="Instrument.cs" t="Include" />
-        <e p="Menu.cs" t="Include" />
+        <e p="InstrumentData.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net472" t="Include">

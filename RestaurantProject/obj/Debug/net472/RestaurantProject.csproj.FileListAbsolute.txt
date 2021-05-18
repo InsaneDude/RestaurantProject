@@ -12,3 +12,5 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\obj\Debug\net472\RestaurantProject.csproj.CopyComplete
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Entities.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Entities.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Data.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\RestaurantProject\bin\Debug\net472\Data.pdb

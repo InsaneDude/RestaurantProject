@@ -9,3 +9,5 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Dom
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Entities.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Entities.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\obj\Debug\net472\Domain.csproj.CopyComplete
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Data.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Domain\bin\Debug\net472\Data.pdb
