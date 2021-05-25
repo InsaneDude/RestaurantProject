@@ -11,13 +11,13 @@ namespace Domain
         {
             Instrument firstFurnace = new Instrument()
             {
-                IsReady = false, KeepWarm = 1800, WarmingTime = 900, Id = 1
+                Name = "Печь №1", IsFree = true, IsReady = false, KeepWarm = 1800, WarmingTime = 900, Id = 1
             };
             AddInstrument(firstFurnace);
             
             Instrument secondFurnace = new Instrument()
             {
-                IsReady = false, KeepWarm = 1500, WarmingTime = 1000, Id = 2
+                Name = "Печь №2", IsFree = true, IsReady = false, KeepWarm = 1500, WarmingTime = 1000, Id = 2
             };
             AddInstrument(secondFurnace);
         }
@@ -30,15 +30,15 @@ namespace Domain
             return _instrumentList;
         }
 
-        public void UpdateInstrument(Instrument updInstrument)
-        {
-            for (int i = 0; i < _instrumentList.Count; i++)
-            {
-                if (updInstrument.Id == _instrumentList[i].Id)
-                {
-                    _instrumentList[i] = updInstrument;
-                }
-            }
-        }
+        // public void UpdateInstrument(Instrument updInstrument)
+        // {
+        //     for (int i = 0; i < _instrumentList.Count; i++)
+        //     {
+        //         if (updInstrument.Id == _instrumentList[i].Id)
+        //         {
+        //             _instrumentList[i] = updInstrument;
+        //         }
+        //     }
+        // }
     }
 }

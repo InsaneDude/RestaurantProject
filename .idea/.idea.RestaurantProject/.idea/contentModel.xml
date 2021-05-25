@@ -26,6 +26,7 @@
         <e p="Ingredient.cs" t="Include" />
         <e p="Instrument.cs" t="Include" />
         <e p="InstrumentData.cs" t="Include" />
+        <e p="MenuList.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net472" t="Include">

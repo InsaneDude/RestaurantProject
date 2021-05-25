@@ -8,8 +8,6 @@ namespace Domain
         Tomato,
         Water,
         Meat,
-        // SourCream,
-        // Rice,
         Pasta,
         Cucumber,
         Cheese,

@@ -11,13 +11,13 @@ namespace Domain
         {
             Chief newChiefFirst = new Chief()
             {
-                Age = 25, Name = "Валеска", ChiefLevel = 1, IsFree = true, Id = 1
+                Age = 25, Name = "Валеска", ChiefLevel = 1, IsFree = false, Id = 1
             };
             AddChief(newChiefFirst);
             
             Chief newChiefSecond = new Chief()
             {
-                Age = 33, Name = "Калх", ChiefLevel = 2, IsFree = false, Id = 2
+                Age = 33, Name = "Калх", ChiefLevel = 2, IsFree = true, Id = 2
             };
             AddChief(newChiefSecond);
             
