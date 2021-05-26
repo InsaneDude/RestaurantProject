@@ -4,7 +4,6 @@ namespace Domain
     {
         public bool IsFree { get; set; }
         public bool IsReady { get; set; }
-        public int TimeToBecomeHeated { get; set; }
         public float WarmingTime { get; set; }
         public float KeepWarm { get; set; } 
         public string Name { get; set; }

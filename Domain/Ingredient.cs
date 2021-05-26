@@ -17,4 +17,5 @@ namespace Domain
         Strawberry,
         Cherry
     }
+    // удалить и перенести в string (+-)
 }

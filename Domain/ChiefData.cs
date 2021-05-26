@@ -9,21 +9,21 @@ namespace Domain
 
         public ChiefData()
         {
-            Chief newChiefFirst = new Chief()
+            Chief newChiefFirst = new LowLevelChief()
             {
-                Age = 25, Name = "Валеска", ChiefLevel = 1, IsFree = false, Id = 1
+                Name = "Валеска", IsFree = false, Id = 1
             };
             AddChief(newChiefFirst);
             
-            Chief newChiefSecond = new Chief()
+            Chief newChiefSecond = new MidLevelChief()
             {
-                Age = 33, Name = "Калх", ChiefLevel = 2, IsFree = true, Id = 2
+                Name = "Калх", IsFree = true, Id = 2
             };
             AddChief(newChiefSecond);
             
-            Chief newChiefThird = new Chief()
+            Chief newChiefThird = new HighLevelChief()
             {
-                Age = 41, Name = "Эоваций", ChiefLevel = 3, IsFree = true, Id = 3
+                Name = "Эоваций", IsFree = true, Id = 3
             };
             AddChief(newChiefThird);
         }

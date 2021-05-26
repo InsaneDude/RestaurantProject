@@ -3,21 +3,22 @@ using System.Collections.Generic;
 
 namespace Domain
 {
-    public class ApplicationLogic
+    public class ApplicationLogic : IApplicationLogic
     {
         private ChiefData UsedChiefData;
-        private FoodData UsedFoodData;
         private InstrumentData UsedInstrumentData;
+        private Menu UsedMenu;
 
         public ApplicationLogic()
         {
             UsedChiefData = new ChiefData();
-            UsedFoodData = new FoodData();
             UsedInstrumentData = new InstrumentData();
+            UsedMenu = new Menu();
         }
         
-        public void ReserveFood(Food reservedFood)
+        public float ReserveFood(Food reservedFood)
         {
+            float timeToCook = 0;
             switch (reservedFood.FoodNeedsInstrument)
             {
                 case true:
@@ -28,19 +29,9 @@ namespace Domain
                     {
                         if (checkingFurnace.IsFree == true)
                         {
-                            Console.WriteLine($"Разогреваем {checkingFurnace.Name}");
-                            while (checkingFurnace.TimeToBecomeHeated != 1800)
-                            {
-                                checkingFurnace.TimeToBecomeHeated++;
-                            }
-                            Console.WriteLine($"{checkingFurnace.Name} готова к использованию");
+                            Console.WriteLine($"На разогрев {checkingFurnace.Name} уйдёт {checkingFurnace.WarmingTime} секунд");
+                            timeToCook += checkingFurnace.WarmingTime;
                             break;
-                        }
-                        else
-                        {
-                            Console.WriteLine("На данный момент нету свободной печи для приготовления чего-либо. " +
-                                              "Закажите что-то, что не требует печь.");
-                            return;
                         }
                     }
 
@@ -49,21 +40,12 @@ namespace Domain
                         if (checkingChief.IsFree == true)
                         {
                             checkingChief.IsFree = false;
-                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. " +
-                                              $"Блюдо {reservedFood.Name} будет приготовлено через " +
-                                              $"{reservedFood.CookingTime / checkingChief.ChiefLevel} секунд.");
-                            Console.WriteLine($"Блюдо {reservedFood.Name} приготовлено. " +
-                                              $"Шеф {checkingChief.Name} свободен.");
+                            timeToCook += reservedFood.CookingTime / checkingChief.ChiefLevel;
+                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
                             checkingChief.IsFree = true;
                             break;
                         }
-                        else
-                        {
-                            Console.WriteLine("На данный момент нету свободных шефов. Подождите, пока один из них " +
-                                              "освободится.");
-                        }
                     }
-                    Console.WriteLine("");
                     break;
                 
                 case false:
@@ -74,25 +56,43 @@ namespace Domain
                         if (checkingChief.IsFree == true)
                         {
                             checkingChief.IsFree = false;
-                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. " +
-                                              $"Блюдо {reservedFood.Name} будет приготовлено через " +
-                                              $"{reservedFood.CookingTime / checkingChief.ChiefLevel} секунд.");
-                            Console.WriteLine($"Блюдо {reservedFood.Name} приготовлено. " +
-                                              $"Шеф {checkingChief.Name} свободен.");
+                            timeToCook += reservedFood.CookingTime / checkingChief.ChiefLevel;
+                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
                             checkingChief.IsFree = true;
                             break;
                         }
-                        else
-                        {
-                            Console.WriteLine("На данный момент нету свободных шефов. Подождите, пока один из них " +
-                                              "освободится.");
-                        }
                     }
-                    Console.WriteLine("");
                     break;
             }
+            return timeToCook;
         }
         
+        public void ShowMenu()
+        {
+            Console.WriteLine("Меню : ");
+            foreach (var selectedFood in GetAllFoods())
+            {
+                Console.WriteLine(
+                    $"№{selectedFood.Id} : {selectedFood.Name}, порция весит {selectedFood.Weight} грамм, время ожидания {selectedFood.CookingTime} секунд.");
+            }
+            Console.WriteLine();
+        }
+
+        public string Ordering()
+        {
+            Console.WriteLine("Введите номер блюда, которое Вы желаете заказать : ");
+            int counter = 0;
+            foreach (var selectedFood in UsedMenu.GetAllFoods())
+            {
+                counter++;
+                Console.WriteLine($"{counter} : {selectedFood.Name}");
+            }
+            int foodSelectionNumber = Convert.ToInt32(Console.ReadLine());
+            Food gettingFoodToServe = UsedMenu.GetAllFoods()[foodSelectionNumber-1];
+            string timeToWaitForOrder = $"Блюдо {gettingFoodToServe.Name} будет готово через " +
+                              $"{ReserveFood(gettingFoodToServe)} секунд.";
+            return timeToWaitForOrder;
+        }
         public List<Chief> GetAllChiefs()
         {
             return UsedChiefData.GetAllChiefs();
@@ -100,7 +100,7 @@ namespace Domain
         
         public List<Food> GetAllFoods()
         {
-            return UsedFoodData.GetAllFoods();
+            return UsedMenu.GetAllFoods();
         }
         
         public List<Instrument> GetAllInstruments()

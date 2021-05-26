@@ -1,12 +1,13 @@
+using System;
 using System.Collections.Generic;
 
 namespace Domain
 {
-    public class FoodData
+    public class Menu
     {
         private List<Food> _foodList = new List<Food>();
 
-        public FoodData()
+        public Menu()
         {
             Food meatSoup = new Food()
             {

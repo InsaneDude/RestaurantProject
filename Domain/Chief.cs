@@ -1,11 +1,11 @@
 namespace Domain
 {
-    public class Chief
+    public abstract class Chief
     {
-        public int ChiefLevel { get; set; }
-        public int Age { get; set; }
-        public string Name { get; set; }
-        public bool IsFree { get; set; }
-        public int Id { get; set; }
+        // chief level must be abstract
+        public abstract int ChiefLevel { get; set; }
+        public abstract string Name { get; set; }
+        public abstract bool IsFree { get; set; }
+        public abstract int Id { get; set; }
     }
 }

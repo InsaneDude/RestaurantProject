@@ -9,7 +9,6 @@ namespace RestaurantProject
         public static void Main(string[] args)
         {
             ApplicationLogic appLogic = new ApplicationLogic();
-            MenuList menuLogic = new MenuList();
             Console.WriteLine("Приветствуем Вас в нашем ресторане."); 
             while (true)
             {
@@ -21,20 +20,11 @@ namespace RestaurantProject
                 switch (inputedNumber)
                 {
                     case 1:
-                        menuLogic.ShowMenu();
+                        appLogic.ShowMenu();
                         break;
                     case 2:
-                        Console.WriteLine("Введите номер блюда, которое Вы желаете заказать : ");
-                        int counter = 0;
-                        foreach (var selectedFood in appLogic.GetAllFoods())
-                        {
-                            counter++;
-                            Console.WriteLine($"{counter} : {selectedFood.Name}");
-                        }
-                        int foodSelectionNumber = Convert.ToInt32(Console.ReadLine());
-                        Food gettingFoodToServe = appLogic.GetAllFoods()[foodSelectionNumber-1];
-                        Console.WriteLine(gettingFoodToServe.Name);
-                        appLogic.ReserveFood(gettingFoodToServe);
+                        Console.WriteLine(appLogic.Ordering());
+                        Console.WriteLine("");
                         break;
                     case 3:
                         Console.WriteLine("Завершение работы программы.");
