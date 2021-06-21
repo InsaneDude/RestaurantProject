@@ -7,15 +7,19 @@
     "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
-      "net472"
+      "netcoreapp5.0"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "net472": {
-        "projectReferences": {}
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -25,7 +29,28 @@
     }
   },
   "frameworks": {
-    "net472": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "EntityFramework": {
+          "target": "Package",
+          "version": "[6.4.4, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
       "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
     }
   }

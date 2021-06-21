@@ -50,12 +50,40 @@
         </e>
         <e p="Repository.csproj" t="IncludeRecursive" />
       </e>
+      <e p="Restaurant.DAL" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChiefMakesFoodRepository.cs" t="Include" />
+        <e p="ChiefRepository.cs" t="Include" />
+        <e p="ChiefUseInstrumentRepository.cs" t="Include" />
+        <e p="DependencyRegistrator.cs" t="Include" />
+        <e p="FoodRepository.cs" t="Include" />
+        <e p="GenericRepository.cs" t="Include" />
+        <e p="InstrumentRepository.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IChiefMakesFoodRepository.cs" t="Include" />
+          <e p="IChiefRepository.cs" t="Include" />
+          <e p="IChiefUseInstrumentRepository.cs" t="Include" />
+          <e p="IFoodRepository.cs" t="Include" />
+          <e p="IGenericRepository.cs" t="Include" />
+          <e p="IInstrumentRepository.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp5.0" t="Include">
+              <e p="Restaurant.DAL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Restaurant.DAL.csproj" t="IncludeRecursive" />
+        <e p="RestaurantDBContext.cs" t="Include" />
+      </e>
       <e p="Restaurant.Entities" t="IncludeRecursive">
         <e p="BaseEntity.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ChiefEntity.cs" t="Include" />
         <e p="ChiefMakesFoodEntity.cs" t="Include" />
         <e p="ChiefUseInstrumentEntity.cs" t="Include" />
+        <e p="Class1.cs" t="Include" />
         <e p="FoodEntity.cs" t="Include" />
         <e p="InstrumentEntity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
