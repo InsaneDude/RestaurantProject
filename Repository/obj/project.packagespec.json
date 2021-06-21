@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj",
-    "projectName": "Entities",
-    "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj",
-    "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\obj\\",
+    "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Repository\\Repository.csproj",
+    "projectName": "Repository",
+    "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Repository\\Repository.csproj",
+    "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Repository\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net472"

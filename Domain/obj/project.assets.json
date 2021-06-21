@@ -12,14 +12,14 @@
           "bin/placeholder/Data.dll": {}
         }
       },
-      "Entities/1.0.0": {
+      "Restaurant.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         }
       }
     }
@@ -30,16 +30,16 @@
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
     },
-    "Entities/1.0.0": {
+    "Restaurant.Entities/1.0.0": {
       "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
+      "path": "../Restaurant.Entities/Restaurant.Entities.csproj",
+      "msbuildProject": "../Restaurant.Entities/Restaurant.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "Data >= 1.0.0",
-      "Entities >= 1.0.0"
+      "Restaurant.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -72,8 +72,8 @@
             "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj"
             },
-            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj"
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
             }
           }
         }

@@ -4,5 +4,6 @@ namespace Domain
     {
         float ReserveFood(Food reservedFood);
         void ShowMenu();
+        string Ordering();
     }
 }

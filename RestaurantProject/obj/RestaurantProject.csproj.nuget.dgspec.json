@@ -70,8 +70,8 @@
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Data\\Data.csproj"
               },
-              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj"
+              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
+                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj",
+        "projectName": "Restaurant.Entities",
+        "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj",
         "packagesPath": "C:\\Users\\insane_dude\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\insane_dude\\AppData\\Roaming\\NuGet\\NuGet.Config",

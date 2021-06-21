@@ -17,7 +17,7 @@
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
           "Data": "1.0.0",
-          "Entities": "1.0.0"
+          "Restaurant.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -26,14 +26,14 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Entities/1.0.0": {
+      "Restaurant.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         }
       }
     },
@@ -53,7 +53,7 @@
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
           "Data": "1.0.0",
-          "Entities": "1.0.0"
+          "Restaurant.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -62,14 +62,14 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Entities/1.0.0": {
+      "Restaurant.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Restaurant.Entities.dll": {}
         }
       }
     }
@@ -85,10 +85,10 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Entities/1.0.0": {
+    "Restaurant.Entities/1.0.0": {
       "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
+      "path": "../Restaurant.Entities/Restaurant.Entities.csproj",
+      "msbuildProject": "../Restaurant.Entities/Restaurant.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {

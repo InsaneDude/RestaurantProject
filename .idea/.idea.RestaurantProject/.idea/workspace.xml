@@ -22,33 +22,92 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="added menu logic">
-      <change afterPath="$PROJECT_DIR$/Domain/HighLevelChief.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/IApplicationLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/LowLevelChief.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/MidLevelChief.cs" afterDir="false" />
+    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="1 and 2 lab done">
+      <change afterPath="$PROJECT_DIR$/Repository/Repository.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/Debug/net472/Repository.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/Debug/net472/Repository.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/Debug/net472/Repository.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/Repository.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/ChiefMakesFoodEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/ChiefUseInstrumentEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/InstrumentEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Restaurant.Entities.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Restaurant.Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Restaurant.Entities.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entity.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entity.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Release/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Restaurant.Entities.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Restaurant.Entities.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Restaurant.Entities.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/ApplicationLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ApplicationLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Chief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Chief.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/ChiefData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ChiefData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/FoodData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/IApplicationLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/IApplicationLogic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Instrument.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Instrument.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/MenuList.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net472/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net472/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestaurantProject/MainProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/MainProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Abstract/BaseEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Abstract/IBaseEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/ChiefEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/ChiefEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/Restaurant.Entities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/FoodEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/FoodEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net472/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/bin/Debug/net472/Restaurant.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net472/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/bin/Debug/net472/Restaurant.Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entity.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entity.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net472/Entity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/Entity.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/obj/Repository.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/obj/Repository.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entity.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entities.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entity.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Entities.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net472/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Release/net472/Entities.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net472/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Release/net472/Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/net472/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/Release/net472/Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Entities/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/RestaurantProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/RestaurantProject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/RestaurantProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/RestaurantProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/Debug/net472/RestaurantProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/RestaurantProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/RestaurantProject.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantProject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Entities/Abstract/IBaseEntity.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/Abstract/IChiefRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/ChiefRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/Abstract/IFoodRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/Abstract/FoodRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/FoodRepository.cs" />
-        <option value="$PROJECT_DIR$/Entities/FoodEntity.cs" />
-        <option value="$PROJECT_DIR$/Entities/ChiefEntity.cs" />
         <option value="$PROJECT_DIR$/Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/Domain/Driver.cs" />
         <option value="$PROJECT_DIR$/Services/Class1.cs" />
@@ -109,18 +160,26 @@
         <option value="$PROJECT_DIR$/Domain/IChief.cs" />
         <option value="$PROJECT_DIR$/Domain/IFood.cs" />
         <option value="$PROJECT_DIR$/Domain/Menu.cs" />
-        <option value="$PROJECT_DIR$/Domain/Ingredient.cs" />
         <option value="$PROJECT_DIR$/Domain/Food.cs" />
         <option value="$PROJECT_DIR$/Domain/Chief.cs" />
         <option value="$PROJECT_DIR$/Domain/ChiefData.cs" />
         <option value="$PROJECT_DIR$/Domain/MidLevelChief.cs" />
         <option value="$PROJECT_DIR$/Domain/ICookFood.cs" />
         <option value="$PROJECT_DIR$/Domain/LowLevelChief.cs" />
-        <option value="$PROJECT_DIR$/Domain/HighLevelChief.cs" />
-        <option value="$PROJECT_DIR$/Domain/IApplicationLogic.cs" />
         <option value="$PROJECT_DIR$/Domain/Instrument.cs" />
         <option value="$PROJECT_DIR$/RestaurantProject/MainProgram.cs" />
+        <option value="$PROJECT_DIR$/Domain/HighLevelChief.cs" />
+        <option value="$PROJECT_DIR$/Domain/IApplicationLogic.cs" />
+        <option value="$PROJECT_DIR$/Domain/Ingredient.cs" />
         <option value="$PROJECT_DIR$/Domain/ApplicationLogic.cs" />
+        <option value="$PROJECT_DIR$/Repository/Class1.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/Abstract/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/ChiefEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/ChiefMakesFoodEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/InstrumentEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/ChiefUseInstrumentEntity.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.Entities/FoodEntity.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +250,13 @@
       <workItem from="1621609852090" duration="265000" />
       <workItem from="1621852934500" duration="1878000" />
       <workItem from="1621927973652" duration="14484000" />
+      <workItem from="1622007307168" duration="2634000" />
+      <workItem from="1622013270137" duration="641000" />
+      <workItem from="1624036813313" duration="1841000" />
+      <workItem from="1624097651535" duration="606000" />
+      <workItem from="1624202104987" duration="3628000" />
+      <workItem from="1624266177959" duration="94000" />
+      <workItem from="1624268181774" duration="2100000" />
     </task>
     <task id="LOCAL-00001" summary="deleted all unnecessary stuff">
       <created>1620289993704</created>
@@ -262,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621928868850</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1 and 2 lab done">
+      <created>1622007382923</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622007382923</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +367,8 @@
     <MESSAGE value="starting full appLogic" />
     <MESSAGE value="mostly all done for business logic" />
     <MESSAGE value="added menu logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added menu logic" />
+    <MESSAGE value="1 and 2 lab done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 and 2 lab done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="473" y="236" key="#Notifications" timestamp="1621339457845">
@@ -313,22 +387,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="115" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620289839665" />
-    <state width="1390" height="286" key="GridCell.Tab.0.bottom" timestamp="1621979940136">
+    <state width="1392" height="270" key="GridCell.Tab.0.bottom" timestamp="1622013041455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621979940136" />
-    <state width="1390" height="286" key="GridCell.Tab.0.center" timestamp="1621979940136">
+    <state width="1392" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622013041455" />
+    <state width="1392" height="270" key="GridCell.Tab.0.center" timestamp="1622013041455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621979940136" />
-    <state width="1390" height="286" key="GridCell.Tab.0.left" timestamp="1621979940136">
+    <state width="1392" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622013041455" />
+    <state width="1392" height="270" key="GridCell.Tab.0.left" timestamp="1622013041455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621979940136" />
-    <state width="1390" height="286" key="GridCell.Tab.0.right" timestamp="1621979940136">
+    <state width="1392" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622013041455" />
+    <state width="1392" height="270" key="GridCell.Tab.0.right" timestamp="1622013041455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621979940136" />
+    <state width="1392" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622013041455" />
     <state width="1390" height="286" key="GridCell.Tab.1.bottom" timestamp="1621979940136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -397,10 +471,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="305" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1621940484648" />
-    <state x="338" y="154" key="Rider.ProjectTemplateDialog.Size" timestamp="1620812320147">
+    <state x="338" y="154" key="Rider.ProjectTemplateDialog.Size" timestamp="1624213253803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="338" y="154" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1620812320147" />
+    <state x="338" y="154" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1624213253803" />
     <state x="574" y="107" key="RiderGenerateDialog" timestamp="1620717715966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -413,14 +487,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621608859370" />
-    <state x="92" y="100" width="1246" height="630" key="VCS.FileHistoryDialog" timestamp="1621086026633">
+    <state x="92" y="100" width="1246" height="630" key="VCS.FileHistoryDialog" timestamp="1624270443138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="92" y="100" width="1246" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1621086026633" />
-    <state x="339" y="143" key="Vcs.Push.Dialog.v2" timestamp="1621359631020">
+    <state x="92" y="100" width="1246" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1624270443138" />
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2" timestamp="1622007389405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621359631020" />
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622007389405" />
     <state x="405" y="171" key="WebReferenceSession.Dialog" timestamp="1621082969469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -429,10 +503,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1620716919048" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1621929949363">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1624269561301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1621929949363" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1624269561301" />
     <state x="416" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1621368940169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

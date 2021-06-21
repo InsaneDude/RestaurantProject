@@ -22,14 +22,12 @@ namespace Domain
             switch (reservedFood.FoodNeedsInstrument)
             {
                 case true:
-                    Console.WriteLine("Для даного типа еды нужен инструмент.");
                     List<Chief> chiefToSelectPlus = UsedChiefData.GetAllChiefs();
                     List<Instrument> instrumentToSelect = UsedInstrumentData.GetAllInstruments();
                     foreach (var checkingFurnace in instrumentToSelect)
                     {
                         if (checkingFurnace.IsFree == true)
                         {
-                            Console.WriteLine($"На разогрев {checkingFurnace.Name} уйдёт {checkingFurnace.WarmingTime} секунд");
                             timeToCook += checkingFurnace.WarmingTime;
                             break;
                         }
@@ -41,7 +39,7 @@ namespace Domain
                         {
                             checkingChief.IsFree = false;
                             timeToCook += reservedFood.CookingTime / checkingChief.ChiefLevel;
-                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
+                            // Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
                             checkingChief.IsFree = true;
                             break;
                         }
@@ -49,7 +47,6 @@ namespace Domain
                     break;
                 
                 case false:
-                    Console.WriteLine("Для даного типа еды не нужен инструмент.");
                     List<Chief> chiefToSelectMinus = UsedChiefData.GetAllChiefs();
                     foreach (var checkingChief in chiefToSelectMinus)
                     {
@@ -57,7 +54,7 @@ namespace Domain
                         {
                             checkingChief.IsFree = false;
                             timeToCook += reservedFood.CookingTime / checkingChief.ChiefLevel;
-                            Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
+                            // Console.WriteLine($"Шеф {checkingChief.Name} приступил к работе. ");
                             checkingChief.IsFree = true;
                             break;
                         }

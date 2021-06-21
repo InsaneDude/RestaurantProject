@@ -1,11 +1,11 @@
-using Entities.Abstract;
+using Entities;
 
 namespace Entities
 {
-    public class ChiefEntity : BaseEntity
+    public class ChiefEntity : BaseEntity<int>
     {
-        public int Age { get; set; }
         public string Name { get; set; }
         public string Level { get; set; }
+        public bool IsFree { get; set; }
     }
 }
