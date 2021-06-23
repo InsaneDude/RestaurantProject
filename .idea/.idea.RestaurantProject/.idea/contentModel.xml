@@ -39,35 +39,26 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Repository" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="net472" t="Include">
-              <e p="Repository.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Repository.csproj" t="IncludeRecursive" />
-      </e>
       <e p="Restaurant.DAL" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ChiefMakesFoodRepository.cs" t="Include" />
         <e p="ChiefRepository.cs" t="Include" />
         <e p="ChiefUseInstrumentRepository.cs" t="Include" />
-        <e p="DependencyRegistrator.cs" t="Include" />
+        <e p="DependencyRegistator.cs" t="Include" />
         <e p="FoodRepository.cs" t="Include" />
         <e p="GenericRepository.cs" t="Include" />
         <e p="InstrumentRepository.cs" t="Include" />
         <e p="Interfaces" t="Include">
-          <e p="IChiefMakesFoodRepository.cs" t="Include" />
+          <e p="IChiefMakesOrderRepository.cs" t="Include" />
           <e p="IChiefRepository.cs" t="Include" />
           <e p="IChiefUseInstrumentRepository.cs" t="Include" />
           <e p="IFoodRepository.cs" t="Include" />
           <e p="IGenericRepository.cs" t="Include" />
           <e p="IInstrumentRepository.cs" t="Include" />
+          <e p="IMenuRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="IUnitOfWork.cs" t="Include" />
         </e>
+        <e p="MenuRepository.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp5.0" t="Include">
@@ -83,11 +74,11 @@
         <e p="BaseEntity.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ChiefEntity.cs" t="Include" />
-        <e p="ChiefMakesFoodEntity.cs" t="Include" />
+        <e p="ChiefMakesOrderEntity.cs" t="Include" />
         <e p="ChiefUseInstrumentEntity.cs" t="Include" />
-        <e p="Class1.cs" t="Include" />
         <e p="FoodEntity.cs" t="Include" />
         <e p="InstrumentEntity.cs" t="Include" />
+        <e p="MenuEntity.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net472" t="Include">
@@ -95,7 +86,61 @@
             </e>
           </e>
         </e>
+        <e p="OrderEntity.cs" t="Include" />
         <e p="Restaurant.Entities.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Restaurant.Mappers" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChiefMakesFoodMapper.cs" t="Include" />
+        <e p="ChiefMapper.cs" t="Include" />
+        <e p="ChiefUseInstrumentMapper.cs" t="Include" />
+        <e p="FoodMapper.cs" t="Include" />
+        <e p="InstrumentMapper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="Restaurant.Mappers.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Restaurant.Mappers.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Restaurant.Models" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Chief.cs" t="Include" />
+        <e p="ChiefMakesFood.cs" t="Include" />
+        <e p="ChiefUseInstrument.cs" t="Include" />
+        <e p="Food.cs" t="Include" />
+        <e p="Instrument.cs" t="Include" />
+        <e p="Menu.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="Restaurant.Models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Restaurant.Models.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Restaurant.Services" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="IChiefMakesOrderService.cs" t="Include" />
+          <e p="IChiefUseInstrumentService.cs" t="Include" />
+          <e p="IOrderService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChiefMakesOrderService.cs" t="Include" />
+        <e p="ChiefUseInstrumentService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="Restaurant.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderService.cs" t="Include" />
+        <e p="Restaurant.Services.csproj" t="IncludeRecursive" />
+        <e p="ServicesRegistation.cs" t="Include" />
       </e>
       <e p="RestaurantProject" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

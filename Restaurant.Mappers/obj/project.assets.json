@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Restaurant.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Restaurant.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Entities.dll": {}
+        }
+      },
+      "Restaurant.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Restaurant.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Restaurant.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Entities/Restaurant.Entities.csproj",
+      "msbuildProject": "../Restaurant.Entities/Restaurant.Entities.csproj"
+    },
+    "Restaurant.Models/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Models/Restaurant.Models.csproj",
+      "msbuildProject": "../Restaurant.Models/Restaurant.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Restaurant.Entities >= 1.0.0",
+      "Restaurant.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\insane_dude\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj",
+      "projectName": "Restaurant.Mappers",
+      "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj",
+      "packagesPath": "C:\\Users\\insane_dude\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\insane_dude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
+            },
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
