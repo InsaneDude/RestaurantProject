@@ -1,0 +1,5 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\netcoreapp5.0\Restaurant.DAL.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\netcoreapp5.0\Restaurant.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\netcoreapp5.0\Restaurant.DAL.AssemblyInfoInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\netcoreapp5.0\Restaurant.DAL.AssemblyInfo.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\netcoreapp5.0\Restaurant.DAL.csproj.CoreCompileInputs.cache

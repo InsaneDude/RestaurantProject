@@ -1,0 +1,13 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Mappers.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Mappers.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Entities.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Models.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Entities.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\net472\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.AssemblyInfoInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.AssemblyInfo.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.csproj.CopyComplete
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\net472\Restaurant.Mappers.pdb

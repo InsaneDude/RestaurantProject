@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wOzRpNCFRRCn+xoR73/yilCkj09c4lTUxLc9fRSlj+u0tneZ4oa6+GM5vw6bbuRrNEB9J22GK5hD/WlNV9RRgw==",
+  "dgSpecHash": "MT76EKAytx8wefOwmSSA44Hfem3zQUPtO+WGQP6HaVxzX1ebOnmmLaXi6SSLErdFs2XPWJkWXLehVWIbIDo96g==",
   "success": true,
   "projectFilePath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\insane_dude\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
   "logs": []
 }

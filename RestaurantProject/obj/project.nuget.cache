@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DgnBq71rVg9gfL9M5tlB8980DVTiwWLU77jhnYApA2/rUGBa0gIp4VCtx8+PV3gJn7n3z/jl0nWCCY91NDQysQ==",
+  "dgSpecHash": "1yEsHPLcnSxkX7YbGEVE5DLZ30oY4hKHblfrXIlICOprLQFsF1ErOxavPEOm9dZXkXKGiZjfvAVm8hYSGyNlow==",
   "success": true,
   "projectFilePath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\RestaurantProject\\RestaurantProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\insane_dude\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\insane_dude\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0-preview.5.21301.5\\microsoft.bcl.asyncinterfaces.6.0.0-preview.5.21301.5.nupkg.sha512",
     "C:\\Users\\insane_dude\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.5.21301.5\\microsoft.extensions.dependencyinjection.6.0.0-preview.5.21301.5.nupkg.sha512",
     "C:\\Users\\insane_dude\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.5.21301.5\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512",

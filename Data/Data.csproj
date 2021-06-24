@@ -4,7 +4,4 @@
         <TargetFramework>net472</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup>
-    </ItemGroup>
-
 </Project>

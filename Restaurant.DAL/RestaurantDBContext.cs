@@ -5,7 +5,13 @@ namespace Restaurant.DAL
 {
     public class RestaurantDBContext: DbContext
     {
-        public RestaurantDBContext() : base("RestaurantDB") { }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("dbo");
+            base.OnModelCreating(modelBuilder);
+        }
+        
+        public RestaurantDBContext() : base("RestaurantDBConnStr") { }
         public DbSet<ChiefEntity> Chiefs { get; set; }
         public DbSet<ChiefMakesOrderEntity> ChiefsMakeFood { get; set; }
         public DbSet<ChiefUseInstrumentEntity> ChiefsUseInstrument { get; set; }

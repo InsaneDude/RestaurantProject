@@ -168,6 +168,10 @@
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0-preview.5.21301.5, )"

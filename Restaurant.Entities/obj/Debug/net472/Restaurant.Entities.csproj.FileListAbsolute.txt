@@ -1,0 +1,8 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\bin\Debug\net472\Restaurant.Entities.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\bin\Debug\net472\Restaurant.Entities.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.AssemblyInfoInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.AssemblyInfo.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Entities\obj\Debug\net472\Restaurant.Entities.pdb
