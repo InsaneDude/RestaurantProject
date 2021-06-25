@@ -11,11 +11,12 @@ namespace Restaurant.DAL
         {
             serviceCollection.AddScoped<RestaurantDBContext>();
             serviceCollection.AddScoped<IChiefRepository, ChiefRepository>();
-            serviceCollection.AddScoped<IChiefMakesOrderRepository, IChiefMakesOrderRepository>();
+            serviceCollection.AddScoped<IChiefMakesOrderRepository, ChiefMakesOrderRepository>();
             serviceCollection.AddScoped<IChiefUseInstrumentRepository, ChiefUseInstrumentRepository>();
             serviceCollection.AddScoped<IMenuRepository, MenuRepository>();
             serviceCollection.AddScoped<IOrderRepository, OrderRepository>();
             serviceCollection.AddScoped<IFoodRepository, FoodRepository>();
+            serviceCollection.AddScoped<IInstrumentRepository, InstrumentRepository>();
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
             return serviceCollection;
         }

@@ -1,4 +1,4 @@
-﻿namespace RestaurantProject
+﻿namespace Restaurant.CLI
 {
     class Program
     {

@@ -6,7 +6,7 @@ using Restaurant.BL.Models;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL;
 
-namespace RestaurantProject
+namespace Restaurant.CLI
 {
     public class ConsoleApp
     {
@@ -29,6 +29,7 @@ namespace RestaurantProject
             {
                 Console.WriteLine($"Заказ №, {order.Id}. Время выполнения заказа : {order.OrderTime}");
             }
+            Console.WriteLine("И тут работает!");
         }
     }
 }

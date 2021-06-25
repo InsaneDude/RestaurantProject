@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "net472": {
-            "targetAlias": "net472",
             "projectReferences": {
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
@@ -79,13 +77,9 @@
         },
         "frameworks": {
           "net472": {
-            "targetAlias": "net472",
             "projectReferences": {
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj"
-              },
-              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
-                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
               }
             }
           }
@@ -98,12 +92,7 @@
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0-preview.5.21301.5, )"
@@ -140,8 +129,11 @@
         },
         "frameworks": {
           "net472": {
-            "targetAlias": "net472",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
+                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -152,7 +144,6 @@
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",

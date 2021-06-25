@@ -28,7 +28,7 @@
         </e>
         <e p="Models" t="Include">
           <e p="Chief.cs" t="Include" />
-          <e p="ChiefMakesFood.cs" t="Include" />
+          <e p="ChiefMakesOrder.cs" t="Include" />
           <e p="ChiefUseInstrument.cs" t="Include" />
           <e p="Food.cs" t="Include" />
           <e p="Instrument.cs" t="Include" />
@@ -56,6 +56,7 @@
         <e p="ServicesRegistation.cs" t="Include" />
       </e>
       <e p="Restaurant.CLI" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleApp.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -90,6 +91,7 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="ChiefMakesOrderRepository.cs" t="Include" />
           <e p="ChiefRepository.cs" t="Include" />
           <e p="ChiefUseInstrumentRepository.cs" t="Include" />
           <e p="FoodRepository.cs" t="Include" />

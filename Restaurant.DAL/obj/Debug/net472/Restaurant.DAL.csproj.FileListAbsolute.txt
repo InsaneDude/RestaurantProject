@@ -1,0 +1,17 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Restaurant.DAL.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Restaurant.DAL.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Restaurant.DAL.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\EntityFramework.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\bin\Debug\net472\System.Threading.Tasks.Extensions.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.AssemblyInfoInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.AssemblyInfo.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.csproj.CopyComplete
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.DAL\obj\Debug\net472\Restaurant.DAL.pdb

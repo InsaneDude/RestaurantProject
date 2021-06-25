@@ -1,20 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net472</TargetFramework>
         <OutputType>Exe</OutputType>
-        <RootNamespace>RestaurantProject</RootNamespace>
+        <TargetFramework>net472</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Domain\Domain.csproj" />
       <ProjectReference Include="..\Restaurant.BL\Restaurant.BL.csproj" />
-      <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="EntityFramework" Version="6.4.4" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.5.21301.5" />
     </ItemGroup>
 
 </Project>

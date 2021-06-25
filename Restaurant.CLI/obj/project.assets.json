@@ -438,10 +438,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "EntityFramework >= 6.4.4",
-      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5",
-      "Restaurant.BL >= 1.0.0",
-      "Restaurant.DAL >= 1.0.0"
+      "Restaurant.BL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -473,9 +470,6 @@
           "projectReferences": {
             "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj": {
               "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj"
-            },
-            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
-              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
             }
           }
         }
@@ -489,16 +483,6 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.4.4, )"
-          },
-          "Microsoft.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "[6.0.0-preview.5.21301.5, )"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     },
