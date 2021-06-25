@@ -1,6 +1,4 @@
-using Entities;
-
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public class ChiefEntity : BaseEntity<int>
     {

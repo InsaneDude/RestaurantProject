@@ -1,7 +1,7 @@
-using Entities;
-using Restaurant.Models;
+using Restaurant.BL.Models;
+using Restaurant.DAL.Entities;
 
-namespace Restaurant.Mappers.Interfaces
+namespace Restaurant.BL.Mappers.Interfaces
 {
     public interface IFoodMapper : IMapper<FoodEntity, Food> { }
 }

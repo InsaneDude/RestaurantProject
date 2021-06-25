@@ -1,4 +1,4 @@
-namespace Restaurant.Mappers.Interfaces
+namespace Restaurant.BL.Mappers.Interfaces
 {
     public interface IMapper<TEnt, TMod>
     {

@@ -1,22 +1,33 @@
-using Entities;
-using Restaurant.Models;
+using Restaurant.BL.Mappers.Interfaces;
+using Restaurant.BL.Models;
+using Restaurant.DAL.Entities;
 
-namespace Restaurant.Mappers
+namespace Restaurant.BL.Mappers
 {
-    public static class FoodMapper
+    public class FoodMapper : IFoodMapper
     {
-        public static FoodEntity convertToEntity(this Food model)
+        public FoodEntity convertToEntity(Food model)
         {
-            return new FoodEntity { Name = model.Name, Weight = model.Weight, CookingTime = model.CookingTime, 
-                                    Ingredients = model.Ingredients, FoodNeedInstrument = model.FoodNeedInstrument, 
-                                    Id = model.Id };
+            return new FoodEntity { 
+                Name = model.Name, 
+                Weight = model.Weight, 
+                CookingTime = model.CookingTime,
+                Ingredients = model.Ingredients, 
+                FoodNeedInstrument = model.FoodNeedInstrument, 
+                Id = model.Id 
+            };
         }
 
-        public static Food convertToModel(this FoodEntity entity)
+        public Food convertToModel(FoodEntity entity)
         {
-            return new Food { Name = entity.Name, Weight = entity.Weight, CookingTime = entity.CookingTime, 
-                              Ingredients = entity.Ingredients, FoodNeedInstrument = entity.FoodNeedInstrument, 
-                              Id = entity.Id };
+            return new Food { 
+                Name = entity.Name, 
+                Weight = entity.Weight, 
+                CookingTime = entity.CookingTime, 
+                Ingredients = entity.Ingredients, 
+                FoodNeedInstrument = entity.FoodNeedInstrument, 
+                Id = entity.Id 
+            };
         }
     }
 }

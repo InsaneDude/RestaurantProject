@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Entities;
-using Restaurant.DAL.Interfaces;
+using Restaurant.DAL.Entities;
+using Restaurant.DAL.Repositories.Interfaces;
 
-namespace Restaurant.DAL
+namespace Restaurant.DAL.Repositories
 {
     public class GenericRepository<T, K> : IGenericRepository<T, K> where T : BaseEntity<K>
     {

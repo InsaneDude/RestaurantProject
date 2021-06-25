@@ -1,6 +1,6 @@
-using Restaurant.Services.Abstract;
+using Restaurant.BL.Services.Abstract;
 
-namespace Restaurant.Services
+namespace Restaurant.BL.Services
 {
     public class ChiefUseInstrumentService : IChiefUseInstrumentService
     {

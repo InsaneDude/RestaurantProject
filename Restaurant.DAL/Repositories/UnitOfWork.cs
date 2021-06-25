@@ -1,7 +1,7 @@
 using System;
-using Restaurant.DAL.Interfaces;
+using Restaurant.DAL.Repositories.Interfaces;
 
-namespace Restaurant.DAL
+namespace Restaurant.DAL.Repositories
 {
     public class UnitOfWork: IUnitOfWork
     {

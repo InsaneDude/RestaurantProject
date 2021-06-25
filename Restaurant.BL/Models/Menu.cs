@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Restaurant.Models
+namespace Restaurant.BL.Models
 {
     public class Menu
     {

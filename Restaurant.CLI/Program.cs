@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace Restaurant.CLI
+﻿namespace RestaurantProject
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConsoleApp consoleApp = new ConsoleApp();
+            consoleApp.RunConsoleApp();
         }
     }
 }

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Restaurant.DAL.Interfaces
+namespace Restaurant.DAL.Repositories.Interfaces
 {
     public interface IGenericRepository<T, K>
     {

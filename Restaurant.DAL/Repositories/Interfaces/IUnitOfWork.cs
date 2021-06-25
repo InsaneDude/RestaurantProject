@@ -1,6 +1,6 @@
 using System;
 
-namespace Restaurant.DAL.Interfaces
+namespace Restaurant.DAL.Repositories.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

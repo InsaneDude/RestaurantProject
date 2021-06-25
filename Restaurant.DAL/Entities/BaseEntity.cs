@@ -1,6 +1,4 @@
-using System;
-
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public abstract class BaseEntity<T>
     {

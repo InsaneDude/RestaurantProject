@@ -1,4 +1,0 @@
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Services\obj\Debug\net472\Restaurant.Services.csprojAssemblyReference.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Services\obj\Debug\net472\Restaurant.Services.AssemblyInfoInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Services\obj\Debug\net472\Restaurant.Services.AssemblyInfo.cs
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Services\obj\Debug\net472\Restaurant.Services.csproj.CoreCompileInputs.cache

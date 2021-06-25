@@ -89,16 +89,6 @@
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
         }
-      },
-      "Restaurant.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "compile": {
-          "bin/placeholder/Restaurant.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurant.Entities.dll": {}
-        }
       }
     }
   },
@@ -286,18 +276,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Restaurant.Entities/1.0.0": {
-      "type": "project",
-      "path": "../Restaurant.Entities/Restaurant.Entities.csproj",
-      "msbuildProject": "../Restaurant.Entities/Restaurant.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "EntityFramework >= 6.4.4",
-      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5",
-      "Restaurant.Entities >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5"
     ]
   },
   "packageFolders": {
@@ -326,11 +310,7 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "projectReferences": {
-            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj": {
-              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Entities\\Restaurant.Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,4 +1,4 @@
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public class InstrumentEntity: BaseEntity<int>
     {

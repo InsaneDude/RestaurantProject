@@ -1,5 +1,6 @@
 using System.Data.Entity;
-using Entities;
+using Restaurant.DAL.Entities;
+
 
 namespace Restaurant.DAL
 {

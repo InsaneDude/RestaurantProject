@@ -95,13 +95,28 @@
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
           "EntityFramework": "6.4.4",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5",
+          "Restaurant.DAL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Restaurant.BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/Restaurant.BL.dll": {}
+        }
+      },
+      "Restaurant.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
         }
       }
     },
@@ -199,13 +214,28 @@
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
           "EntityFramework": "6.4.4",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5"
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5",
+          "Restaurant.DAL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Restaurant.BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/Restaurant.BL.dll": {}
+        }
+      },
+      "Restaurant.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
         }
       }
     }
@@ -399,13 +429,19 @@
       "type": "project",
       "path": "../Restaurant.BL/Restaurant.BL.csproj",
       "msbuildProject": "../Restaurant.BL/Restaurant.BL.csproj"
+    },
+    "Restaurant.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.DAL/Restaurant.DAL.csproj",
+      "msbuildProject": "../Restaurant.DAL/Restaurant.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "EntityFramework >= 6.4.4",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5",
-      "Restaurant.BL >= 1.0.0"
+      "Restaurant.BL >= 1.0.0",
+      "Restaurant.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -437,6 +473,9 @@
           "projectReferences": {
             "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj": {
               "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj"
+            },
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
             }
           }
         }

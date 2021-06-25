@@ -1,6 +1,6 @@
 using System;
 
-namespace Restaurant.Models
+namespace Restaurant.BL.Models
 {
     public class ChiefUseInstrument
     {

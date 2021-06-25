@@ -89,6 +89,20 @@
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Restaurant.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DAL.dll": {}
+        }
       }
     }
   },
@@ -276,12 +290,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Restaurant.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.DAL/Restaurant.DAL.csproj",
+      "msbuildProject": "../Restaurant.DAL/Restaurant.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "EntityFramework >= 6.4.4",
-      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5"
+      "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5",
+      "Restaurant.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -310,7 +330,11 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

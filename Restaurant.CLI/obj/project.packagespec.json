@@ -16,8 +16,14 @@
     "frameworks": {
       "net472": {
         "projectReferences": {
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Domain\\Domain.csproj"
+          },
           "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj": {
             "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj"
+          },
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
           }
         }
       }

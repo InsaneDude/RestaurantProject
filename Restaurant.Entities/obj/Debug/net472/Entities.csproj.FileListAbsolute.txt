@@ -1,8 +1,0 @@
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\bin\Debug\net472\Entities.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\bin\Debug\net472\Entities.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.csprojAssemblyReference.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.AssemblyInfoInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.AssemblyInfo.cs
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.csproj.CoreCompileInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Entities\obj\Debug\net472\Entities.pdb

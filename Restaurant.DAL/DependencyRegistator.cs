@@ -1,5 +1,6 @@
-using Restaurant.DAL.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using Restaurant.DAL.Repositories;
+using Restaurant.DAL.Repositories.Interfaces;
 
 
 namespace Restaurant.DAL

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public class OrderEntity: BaseEntity<int>
     {

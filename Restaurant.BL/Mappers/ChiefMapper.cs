@@ -1,5 +1,5 @@
-using Entities;
-using Restaurant.Models;
+using Restaurant.BL.Models;
+using Restaurant.DAL.Entities;
 
 
 namespace Restaurant.BL.Mappers
@@ -8,20 +8,24 @@ namespace Restaurant.BL.Mappers
     {
         public static ChiefEntity convertToEntity(this Chief model)
         {
-            return new ChiefEntity { 
+            return new ChiefEntity 
+            { 
                 Name = model.Name, 
                 Level = model.Level, 
                 IsFree = model.IsFree, 
-                Id = model.Id };
+                Id = model.Id 
+            };
         }
 
         public static Chief convertToModel(this ChiefEntity entity)
         {
-            return new Chief { 
+            return new Chief 
+            { 
                 Name = entity.Name, 
                 Level = entity.Level, 
                 IsFree = entity.IsFree, 
-                Id = entity.Id };
+                Id = entity.Id 
+            };
         }
     }
 }

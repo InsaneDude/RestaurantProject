@@ -1,6 +1,6 @@
 using System;
 
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public class ChiefUseInstrumentEntity: BaseEntity<int>
     {

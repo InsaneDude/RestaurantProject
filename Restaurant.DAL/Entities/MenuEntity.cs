@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Entities
+namespace Restaurant.DAL.Entities
 {
     public class MenuEntity: BaseEntity<int>
     {
