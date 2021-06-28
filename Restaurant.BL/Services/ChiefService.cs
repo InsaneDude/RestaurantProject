@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
 using Restaurant.BL.Mappers.Interfaces;
 using Restaurant.BL.Models;
 using Restaurant.BL.Services.Abstract;
-using Restaurant.DAL.Entities;
 using Restaurant.DAL.Repositories.Interfaces;
 
 namespace Restaurant.BL.Services
@@ -16,7 +14,7 @@ namespace Restaurant.BL.Services
         private IInstrumentService _instrumentService;
 
         public ChiefService(
-            IUnitOfWork unitOfWork, IChiefMapper chiefMapper, 
+            IUnitOfWork unitOfWork, IChiefMapper chiefMapper,
             IInstrumentMapper instrumentMapper, IInstrumentService instrumentService)
         {
             _unitOfWork = unitOfWork;
@@ -28,27 +26,26 @@ namespace Restaurant.BL.Services
         private Chief ChiefSelecting()
         {
             Chief chiefToFind = new Chief();
-            List<ChiefEntity> chiefToSelect = _unitOfWork.ChiefRepository.GetAll();
             foreach (var chiefNow in _unitOfWork.ChiefRepository.GetAll())
             {
                 if (chiefNow.IsFree is true)
                 {
-                    chiefNow.IsFree = false;
                     chiefToFind = _chiefMapper.convertToModel(chiefNow);
+                    chiefToFind.IsFree = false;
                     break;
                 }
             }
             return chiefToFind;
         }
-
+        //_instrumentService.GetAllInstruments()
         private Chief ChiefSelectsInstrument()
         {
             Chief chiefToGiveInstrument = ChiefSelecting();
-            foreach (var instrumentNow in _instrumentService.GetAllInstruments())
+            foreach (var instrumentNow in _unitOfWork.InstrumentRepository.GetAll())
             {
                 if (instrumentNow.IsInstrumentFree is true)
                 {
-                    chiefToGiveInstrument.Instrument = instrumentNow;
+                    chiefToGiveInstrument.Instrument = _instrumentMapper.convertToModel(instrumentNow);
                     chiefToGiveInstrument.Instrument.IsInstrumentFree = false;
                     break;
                 }

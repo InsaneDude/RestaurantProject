@@ -10,7 +10,6 @@ namespace Restaurant.DAL.Repositories
         
         public UnitOfWork(RestaurantDBContext context, 
         IChiefRepository chiefRepository,
-        IChiefMakesOrderRepository chiefMakesOrderRepository,
         IFoodRepository foodRepository,
         IInstrumentRepository instrumentRepository,
         IMenuRepository menuRepository,
@@ -18,7 +17,6 @@ namespace Restaurant.DAL.Repositories
         {
             this.context = context;
             ChiefRepository = chiefRepository;
-            ChiefMakesOrderRepository = chiefMakesOrderRepository;
             FoodRepository = foodRepository;
             InstrumentRepository = instrumentRepository;
             MenuRepository = menuRepository;
@@ -41,7 +39,6 @@ namespace Restaurant.DAL.Repositories
             context.SaveChanges();
         }
         public IChiefRepository ChiefRepository { get; }
-        public IChiefMakesOrderRepository ChiefMakesOrderRepository { get; }
         public IFoodRepository FoodRepository { get; }
         public IInstrumentRepository InstrumentRepository { get; }
         public IMenuRepository MenuRepository { get; }

@@ -6,7 +6,6 @@ namespace Restaurant.DAL.Repositories.Interfaces
     {
         void Save();
         IChiefRepository ChiefRepository { get; }
-        IChiefMakesOrderRepository ChiefMakesOrderRepository { get; }
         IFoodRepository FoodRepository { get; }
         IInstrumentRepository InstrumentRepository { get; }
         IMenuRepository MenuRepository { get; }

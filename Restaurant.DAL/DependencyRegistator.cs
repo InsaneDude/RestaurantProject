@@ -11,7 +11,6 @@ namespace Restaurant.DAL
         {
             serviceCollection.AddScoped<RestaurantDBContext>();
             serviceCollection.AddScoped<IChiefRepository, ChiefRepository>();
-            serviceCollection.AddScoped<IChiefMakesOrderRepository, ChiefMakesOrderRepository>();
             serviceCollection.AddScoped<IMenuRepository, MenuRepository>();
             serviceCollection.AddScoped<IOrderRepository, OrderRepository>();
             serviceCollection.AddScoped<IFoodRepository, FoodRepository>();

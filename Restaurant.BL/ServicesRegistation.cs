@@ -11,7 +11,6 @@ namespace Restaurant.BL
     {
         public static IServiceCollection RegisterBL(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddScoped<IChiefMakesOrderMapper, ChiefMakesOrderMapper>();
             serviceCollection.AddScoped<IInstrumentMapper, InstrumentMapper>();
             serviceCollection.AddScoped<IChiefMapper, ChiefMapper>();
             serviceCollection.AddScoped<IFoodMapper, FoodMapper>();

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="RestaurantDB@DESKTOP-IMPULDR" uuid="c4d9af9a-314c-48e5-8c50-6e21f546cda3">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://DESKTOP-IMPULDR:1433;database=RestaurantDB</jdbc-url>
+    </data-source>
+  </component>
+</project>
