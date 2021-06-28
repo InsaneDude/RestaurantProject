@@ -6,5 +6,6 @@ namespace Restaurant.BL.Services.Abstract
     public interface IOrderService
     {
         List<Order> GetAllOrders();
+        Order CreateOrder(int id);
     }
 }

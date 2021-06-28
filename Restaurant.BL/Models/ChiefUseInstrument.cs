@@ -9,6 +9,5 @@ namespace Restaurant.BL.Models
         public Instrument Instrument { get; set; }
         public DateTime LastUsageTime { get; set; }
         public bool IsInstrumentReady { get; set; }
-        public bool IsInstrumentFree { get; set; }
     }
 }

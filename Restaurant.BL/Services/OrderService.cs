@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Restaurant.BL.Mappers.Interfaces;
 using Restaurant.BL.Models;
@@ -11,11 +12,13 @@ namespace Restaurant.BL.Services
     {
         private IUnitOfWork _unitOfWork;
         private IOrderMapper _orderMapper;
+        private IFoodMapper _foodMapper;
 
-        public OrderService(IUnitOfWork unitOfWork, IOrderMapper orderMapper)
+        public OrderService(IUnitOfWork unitOfWork, IOrderMapper orderMapper, IFoodMapper foodMapper)
         {
             _unitOfWork = unitOfWork;
             _orderMapper = orderMapper;
+            _foodMapper = foodMapper;
         }
 
         public List<Order> GetAllOrders()
@@ -26,15 +29,22 @@ namespace Restaurant.BL.Services
                 orderList.Add(_orderMapper.convertToModel(orderNow));
             }
             return orderList;
-            // return null;
-            // Argument type 'Restaurant.DAL.Entities.OrderEntity' is not assignable to parameter type 'Entities.OrderEntity'
-
         }
-        // public Order CreateOrder()
-        // {
-        //     Order NewOrder = new Order();
-        //     NewOrder.OrderTime = DateTime.Now;
-        //     // NewOrder.OrderedFood
-        // }
+        
+        public Order CreateOrder(int idToOrder)
+        {
+            Order newOrder = new Order();
+            newOrder.OrderTime = DateTime.Now;
+            newOrder.OrderedFood = new List<Food>();
+            for (int i = 0; i < 5; i++)
+            {
+                if (idToOrder == i)
+                {
+                    Food foodToAdd = _foodMapper.convertToModel(_unitOfWork.FoodRepository.Get(idToOrder));
+                    newOrder.OrderedFood.Add(foodToAdd);
+                }
+            }
+            return newOrder;
+        }
     }
 }

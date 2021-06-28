@@ -8,6 +8,6 @@ namespace Restaurant.DAL.Entities
         public InstrumentEntity Instrument { get; set; }
         public DateTime LastUsageTime { get; set; }
         public bool IsInstrumentReady { get; set; }
-        public bool IsInstrumentFree { get; set; }
+        
     }
 }

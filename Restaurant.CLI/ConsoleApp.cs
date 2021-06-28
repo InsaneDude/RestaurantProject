@@ -1,8 +1,7 @@
 using System;
-using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
-using Restaurant.BL.Models;
+using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL;
 
@@ -22,14 +21,39 @@ namespace Restaurant.CLI
 
         public void RunConsoleApp()
         {
-            Console.WriteLine("Работает!");
-            IOrderService orderService = serviceProvider.GetRequiredService<IOrderService>();
-            List<Order> OrderList = orderService.GetAllOrders();
-            foreach (var order in OrderList)
+            IOrderService orderService = 
+                serviceProvider.GetRequiredService<IOrderService>();
+            IChiefMakesOrderService chiefMakesOrderService =
+                serviceProvider.GetRequiredService<IChiefMakesOrderService>();
+            IChiefUseInstrumentService chiefUseInstrumentService =
+                serviceProvider.GetRequiredService<IChiefUseInstrumentService>();
+            Console.WriteLine("Приветствуем Вас в нашем ресторане.");
+            while (true)
             {
-                Console.WriteLine($"Заказ №, {order.Id}. Время выполнения заказа : {order.OrderTime}");
+                Console.WriteLine("Если Вы желаете посмотреть меню - введите цифру 1." +
+                                  "\nЕсли Вы желаете заказать что-либо - введите цифру 2." +
+                                  "\nЕсли вы закончили работу с программой - введите цифру 3.");
+                Console.WriteLine("");
+                int inputedNumber = Convert.ToInt32(Console.ReadLine());
+                switch (inputedNumber)
+                {
+                    case 1:
+                        Console.WriteLine("Меню : ");
+                        Console.WriteLine();
+                        break;
+                    case 2:
+                        Console.WriteLine("Введите номер блюда, которое Вы желаете заказать : ");
+                        int foodToOrderNum = Convert.ToInt32(Console.ReadLine());
+                        chiefMakesOrderService.ChiefIsMakingOrder(
+                            chiefUseInstrumentService.ChiefUseInstrumentNow(), 
+                            orderService.CreateOrder(foodToOrderNum));
+                        break;
+                    case 3:
+                        Console.WriteLine("Завершение работы программы.");
+                        Environment.Exit(0);
+                        break;
+                }
             }
-            Console.WriteLine("И тут работает!");
         }
-    }
+    }       
 }

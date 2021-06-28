@@ -4,5 +4,6 @@ namespace Restaurant.DAL.Entities
     {
         public string Name { get; set; }
         public int WarmingTime { get; set; }
+        public bool IsInstrumentFree { get; set; }
     }
 }

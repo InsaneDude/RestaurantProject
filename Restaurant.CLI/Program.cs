@@ -1,4 +1,7 @@
-﻿namespace Restaurant.CLI
+﻿using System;
+using Restaurant.BL.Services;
+
+namespace Restaurant.CLI
 {
     class Program
     {
