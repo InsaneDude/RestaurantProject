@@ -1,3 +1,5 @@
+using System;
+
 namespace Restaurant.BL.Models
 {
     public class Instrument
@@ -6,5 +8,6 @@ namespace Restaurant.BL.Models
         public string Name { get; set; }
         public int WarmingTime { get; set; }
         public bool IsInstrumentFree { get; set; }
+        public DateTime LastUsageTime { get; set; }
     }
 }

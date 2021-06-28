@@ -12,13 +12,11 @@
         <e p="Mappers" t="Include">
           <e p="ChiefMakesOrderMapper.cs" t="Include" />
           <e p="ChiefMapper.cs" t="Include" />
-          <e p="ChiefUseInstrumentMapper.cs" t="Include" />
           <e p="FoodMapper.cs" t="Include" />
           <e p="InstrumentMapper.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="IChiefMakesOrderMapper.cs" t="Include" />
             <e p="IChiefMapper.cs" t="Include" />
-            <e p="IChiefUseInstrumentMapper.cs" t="Include" />
             <e p="IFoodMapper.cs" t="Include" />
             <e p="IInstrumentMapper.cs" t="Include" />
             <e p="IMapper.cs" t="Include" />
@@ -31,7 +29,6 @@
         <e p="Models" t="Include">
           <e p="Chief.cs" t="Include" />
           <e p="ChiefMakesOrder.cs" t="Include" />
-          <e p="ChiefUseInstrument.cs" t="Include" />
           <e p="Food.cs" t="Include" />
           <e p="Instrument.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
@@ -47,12 +44,14 @@
         <e p="Restaurant.BL.csproj" t="IncludeRecursive" />
         <e p="Services" t="Include">
           <e p="Abstract" t="Include">
-            <e p="IChiefMakesOrderService.cs" t="Include" />
-            <e p="IChiefUseInstrumentService.cs" t="Include" />
+            <e p="IChiefService.cs" t="Include" />
+            <e p="IInstrumentService.cs" t="Include" />
+            <e p="IMenuService.cs" t="Include" />
             <e p="IOrderService.cs" t="Include" />
           </e>
-          <e p="ChiefMakesOrderService.cs" t="Include" />
-          <e p="ChiefUseInstrumentService.cs" t="Include" />
+          <e p="ChiefService.cs" t="Include" />
+          <e p="InstrumentService.cs" t="Include" />
+          <e p="MenuService.cs" t="Include" />
           <e p="OrderService.cs" t="Include" />
         </e>
         <e p="ServicesRegistation.cs" t="Include" />
@@ -79,7 +78,6 @@
           <e p="BaseEntity.cs" t="Include" />
           <e p="ChiefEntity.cs" t="Include" />
           <e p="ChiefMakesOrderEntity.cs" t="Include" />
-          <e p="ChiefUseInstrumentEntity.cs" t="Include" />
           <e p="FoodEntity.cs" t="Include" />
           <e p="InstrumentEntity.cs" t="Include" />
           <e p="MenuEntity.cs" t="Include" />
@@ -95,14 +93,12 @@
         <e p="Repositories" t="Include">
           <e p="ChiefMakesOrderRepository.cs" t="Include" />
           <e p="ChiefRepository.cs" t="Include" />
-          <e p="ChiefUseInstrumentRepository.cs" t="Include" />
           <e p="FoodRepository.cs" t="Include" />
           <e p="GenericRepository.cs" t="Include" />
           <e p="InstrumentRepository.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="IChiefMakesOrderRepository.cs" t="Include" />
             <e p="IChiefRepository.cs" t="Include" />
-            <e p="IChiefUseInstrumentRepository.cs" t="Include" />
             <e p="IFoodRepository.cs" t="Include" />
             <e p="IGenericRepository.cs" t="Include" />
             <e p="IInstrumentRepository.cs" t="Include" />

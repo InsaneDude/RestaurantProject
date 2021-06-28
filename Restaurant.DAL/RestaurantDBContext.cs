@@ -15,7 +15,6 @@ namespace Restaurant.DAL
         public RestaurantDBContext() : base("RestaurantDBConnStr") { }
         public DbSet<ChiefEntity> Chiefs { get; set; }
         public DbSet<ChiefMakesOrderEntity> ChiefsMakeOrder { get; set; }
-        public DbSet<ChiefUseInstrumentEntity> ChiefsUseInstrument { get; set; }
         public DbSet<InstrumentEntity> Instruments { get; set; }
         public DbSet<FoodEntity> Foods { get; set; }
         public DbSet<MenuEntity> Menus { get; set; }

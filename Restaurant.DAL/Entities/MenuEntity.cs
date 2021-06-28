@@ -4,6 +4,7 @@ namespace Restaurant.DAL.Entities
 {
     public class MenuEntity: BaseEntity<int>
     {
-        public List<FoodEntity> FoodList { get; set; }
+        public int FoodId { get; set; }
+        public FoodEntity Food { get; set; }
     }
 }

@@ -3,9 +3,8 @@ using Restaurant.BL.Models;
 
 namespace Restaurant.BL.Services.Abstract
 {
-    public interface IOrderService
+    public interface IMenuService
     {
-        List<Order> GetAllOrders();
-        Order AddOrder(int id);
+        List<Food> ShowMenu();
     }
 }

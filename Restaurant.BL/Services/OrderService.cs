@@ -31,17 +31,16 @@ namespace Restaurant.BL.Services
             return orderList;
         }
         
-        public Order CreateOrder(int idToOrder)
+        public Order AddOrder(int idToOrder)
         {
             Order newOrder = new Order();
             newOrder.OrderTime = DateTime.Now;
-            newOrder.OrderedFood = new List<Food>();
-            for (int i = 0; i < 5; i++)
+            newOrder.OrderedFood = new Food();
+            for (int i = 0; i < _unitOfWork.FoodRepository.GetAll().Count; i++)
             {
                 if (idToOrder == i)
                 {
-                    Food foodToAdd = _foodMapper.convertToModel(_unitOfWork.FoodRepository.Get(idToOrder));
-                    newOrder.OrderedFood.Add(foodToAdd);
+                    newOrder.OrderedFood = _foodMapper.convertToModel(_unitOfWork.FoodRepository.Get(idToOrder));
                 }
             }
             return newOrder;

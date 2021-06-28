@@ -5,5 +5,7 @@ namespace Restaurant.DAL.Entities
         public string Name { get; set; }
         public int Level { get; set; }
         public bool IsFree { get; set; }
+        public InstrumentEntity Instrument { get; set; }
+        public int InstrumentId { get; set; }
     }
 }
