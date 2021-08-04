@@ -27,13 +27,23 @@ namespace Restaurant.BL.Mappers
 
         public Chief convertToModel(ChiefEntity entity)
         {
+            if (entity.Instrument != null)
+            {
+                return new Chief 
+                { 
+                    Name = entity.Name, 
+                    Level = entity.Level, // error
+                    IsFree = entity.IsFree, 
+                    Id = entity.Id,
+                    Instrument = _instrumentMapper.convertToModel(entity.Instrument)
+                };
+            }
             return new Chief 
             { 
                 Name = entity.Name, 
-                Level = entity.Level, 
-                IsFree = entity.IsFree, 
-                Id = entity.Id,
-                Instrument = _instrumentMapper.convertToModel(entity.Instrument),
+                Level = entity.Level, // error
+                IsFree = entity.IsFree,
+                Id = entity.Id
             };
         }
     }

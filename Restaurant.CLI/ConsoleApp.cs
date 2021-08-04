@@ -1,8 +1,6 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
-using Restaurant.BL.Models;
-using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL;
 
@@ -33,7 +31,7 @@ namespace Restaurant.CLI
             {
                 Console.WriteLine("Если Вы желаете посмотреть меню - введите цифру 1." +
                                   "\nЕсли Вы желаете заказать что-либо - введите цифру 2." +
-                                  "\nЕсли вы закончили работу с программой - введите цифру 3.");
+                                  "\nЕсли Вы закончили работу с программой - введите цифру 3.");
                 Console.WriteLine("");
                 int inputedNumber = Convert.ToInt32(Console.ReadLine());
                 switch (inputedNumber)
@@ -44,13 +42,19 @@ namespace Restaurant.CLI
                         {
                             Console.WriteLine($"Блюдо #{menuService.ShowMenu()[i].Id}" +
                                               $" {menuService.ShowMenu()[i].Name}, " +
-                                              $"весит {menuService.ShowMenu()[i].Weight}");
+                                              $"весит {menuService.ShowMenu()[i].Weight}. " +
+                                              $"Ингредиенты : {menuService.ShowMenu()[i].Ingredients}.");
                         }
                         Console.WriteLine();
                         break;
                     case 2:
                         Console.WriteLine("Введите номер блюда, которое Вы желаете заказать : ");
                         int foodToOrderNum = Convert.ToInt32(Console.ReadLine());
+                        if (foodToOrderNum > menuService.ShowMenu().Count || foodToOrderNum < 1)
+                        {
+                            Console.WriteLine("Такого блюда не существует.");
+                            break;
+                        }
                         Console.WriteLine($"Заказ будет выполнен в : {chiefService.CountingFinalTime(orderService.AddOrder(foodToOrderNum))}");
                         break;
                     case 3:

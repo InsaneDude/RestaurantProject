@@ -21,7 +21,7 @@ namespace Restaurant.DAL.Repositories
 
         public void Delete(K id)
         {
-            context.Set<T>().Remove(this.Get(id));
+            context.Set<T>().Remove(Get(id));
         }
 
         public T Get(K id)
@@ -31,7 +31,7 @@ namespace Restaurant.DAL.Repositories
 
         public void Update(T entity)
         {
-            T find = this.Get(entity.Id);
+            T find = Get(entity.Id);
             context.Entry(find).CurrentValues.SetValues(entity);
         }
 

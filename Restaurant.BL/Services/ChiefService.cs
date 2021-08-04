@@ -37,7 +37,7 @@ namespace Restaurant.BL.Services
             }
             return chiefToFind;
         }
-        //_instrumentService.GetAllInstruments()
+        
         private Chief ChiefSelectsInstrument()
         {
             Chief chiefToGiveInstrument = ChiefSelecting();
@@ -56,14 +56,21 @@ namespace Restaurant.BL.Services
         public DateTime CountingFinalTime(Order order)
         {
             Chief chiefToOperate = ChiefSelectsInstrument();
-            int finalCookingTime = (order.OrderedFood.CookingTime / chiefToOperate.Level) +
-                                   _instrumentService.InstrumentWarmingChecker(chiefToOperate.Instrument);
-            DateTime orderBeReady = DateTime.Now.AddSeconds(finalCookingTime);
-            if (DateTime.Now == orderBeReady)
+            int finalCookingTime;
+            if (order.OrderedFood.FoodNeedInstrument is false)
             {
-                chiefToOperate.IsFree = true;
-                chiefToOperate.Instrument.IsInstrumentFree = true;
+                finalCookingTime = order.OrderedFood.CookingTime / chiefToOperate.Level;
             }
+            else
+            {
+                finalCookingTime = (order.OrderedFood.CookingTime / chiefToOperate.Level) +
+                                       _instrumentService.InstrumentWarmingChecker(chiefToOperate.Instrument);
+            }
+            DateTime orderBeReady = DateTime.Now.AddSeconds(finalCookingTime);
+            // TODO добавить проверку когда можно освободить
+            chiefToOperate.IsFree = true;
+            chiefToOperate.Instrument.IsInstrumentFree = true;
+            chiefToOperate.Instrument = null;
             return orderBeReady;
         }
     }

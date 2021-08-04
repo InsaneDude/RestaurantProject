@@ -36,13 +36,16 @@ namespace Restaurant.BL.Services
             Order newOrder = new Order();
             newOrder.OrderTime = DateTime.Now;
             newOrder.OrderedFood = new Food();
-            for (int i = 0; i < _unitOfWork.FoodRepository.GetAll().Count; i++)
+            for (int i = 1; i < _unitOfWork.FoodRepository.GetAll().Count + 1; i++)
             {
                 if (idToOrder == i)
                 {
                     newOrder.OrderedFood = _foodMapper.convertToModel(_unitOfWork.FoodRepository.Get(idToOrder));
+                    break;
                 }
             }
+            // TODO Привязка шефа к OrderEntities
+            _unitOfWork.OrderRepository.Add(_orderMapper.convertToEntity(newOrder));
             return newOrder;
         }
     }
