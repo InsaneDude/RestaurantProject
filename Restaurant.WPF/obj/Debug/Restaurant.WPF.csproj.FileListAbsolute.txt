@@ -1,0 +1,15 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.WPF.exe.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.WPF.exe
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.WPF.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\App.g.cs
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF_MarkupCompile.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF_MarkupCompile.lref
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\MainWindow.baml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.g.resources
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.Properties.Resources.resources
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.csproj.GenerateResource.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.exe
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.pdb

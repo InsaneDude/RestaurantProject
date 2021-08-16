@@ -8,7 +8,7 @@
       <ObjectId>5</ObjectId>
       <Current>1</Current>
       <Collation>Cyrillic_General_CI_AS</Collation>
-      <Fingerprint>5.44374/99C30A93-71B2-4487-80F2-73F4B807B602@DESKTOP-IMPULDR</Fingerprint>
+      <Fingerprint>5.44411/69BEACB2-8228-4F69-9907-9763D03E4EEB@DESKTOP-IMPULDR</Fingerprint>
     </database>
     <database id="3" parent="1" name="master">
       <ObjectId>1</ObjectId>
@@ -31,81 +31,71 @@
     </schema>
     <schema id="8" parent="2" name="db_accessadmin">
       <ObjectId>16385</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.680</IntrospectionTimestamp>
     </schema>
     <schema id="9" parent="2" name="db_backupoperator">
       <ObjectId>16389</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.697</IntrospectionTimestamp>
     </schema>
     <schema id="10" parent="2" name="db_datareader">
       <ObjectId>16390</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.710</IntrospectionTimestamp>
     </schema>
     <schema id="11" parent="2" name="db_datawriter">
       <ObjectId>16391</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.720</IntrospectionTimestamp>
     </schema>
     <schema id="12" parent="2" name="db_ddladmin">
       <ObjectId>16387</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.733</IntrospectionTimestamp>
     </schema>
     <schema id="13" parent="2" name="db_denydatareader">
       <ObjectId>16392</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.743</IntrospectionTimestamp>
     </schema>
     <schema id="14" parent="2" name="db_denydatawriter">
       <ObjectId>16393</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.757</IntrospectionTimestamp>
     </schema>
     <schema id="15" parent="2" name="db_owner">
       <ObjectId>16384</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.767</IntrospectionTimestamp>
     </schema>
     <schema id="16" parent="2" name="db_securityadmin">
       <ObjectId>16386</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.777</IntrospectionTimestamp>
     </schema>
     <schema id="17" parent="2" name="dbo">
       <ObjectId>1</ObjectId>
-      <IntrospectionTimestamp>2021-08-04.17:02:25.650</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2021-08-16.15:07:57.710</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>
     <schema id="18" parent="2" name="guest">
       <ObjectId>2</ObjectId>
-      <IntrospectionTimestamp>2021-06-28.21:24:37.843</IntrospectionTimestamp>
     </schema>
     <schema id="19" parent="2" name="sys">
       <ObjectId>4</ObjectId>
     </schema>
     <table id="20" parent="17" name="ChiefEntities">
       <ObjectId>885578193</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.260</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.283</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.783</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
     </table>
     <table id="21" parent="17" name="FoodEntities">
       <ObjectId>949578421</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.277</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.290</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.790</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.810</ModifiedTimestamp>
     </table>
     <table id="22" parent="17" name="InstrumentEntities">
       <ObjectId>917578307</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.277</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.21:24:25.473</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.790</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.803</ModifiedTimestamp>
     </table>
     <table id="23" parent="17" name="MenuEntities">
       <ObjectId>981578535</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.277</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.287</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.793</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
     </table>
     <table id="24" parent="17" name="OrderEntities">
       <ObjectId>1013578649</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.280</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.287</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.793</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.810</ModifiedTimestamp>
     </table>
     <table id="25" parent="17" name="__MigrationHistory">
-      <ObjectId>1093578934</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.290</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.290</ModifiedTimestamp>
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2021-08-04.19:34:56.807</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
     </table>
     <column id="26" parent="20" name="Id">
       <Position>1</Position>
@@ -143,16 +133,16 @@
     </index>
     <key id="33" parent="20" name="PK_dbo.ChiefEntities">
       <ObjectId>901578250</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.273</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.273</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.790</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.790</ModifiedTimestamp>
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>PK_dbo.ChiefEntities</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="34" parent="20" name="FK_dbo.ChiefEntities_dbo.InstrumentEntities_Instrument_Id">
       <ObjectId>1045578763</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.283</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.283</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.800</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.800</ModifiedTimestamp>
       <ColNames>Instrument_Id</ColNames>
       <RefTableId>917578307</RefTableId>
       <RefTableName>InstrumentEntities</RefTableName>
@@ -196,8 +186,8 @@
     </index>
     <key id="42" parent="21" name="PK_dbo.FoodEntities">
       <ObjectId>965578478</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.277</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.277</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.793</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.793</ModifiedTimestamp>
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>PK_dbo.FoodEntities</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -235,8 +225,8 @@
     </index>
     <key id="49" parent="22" name="PK_dbo.InstrumentEntities">
       <ObjectId>933578364</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.277</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.277</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.790</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.790</ModifiedTimestamp>
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>PK_dbo.InstrumentEntities</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -264,16 +254,16 @@
     </index>
     <key id="54" parent="23" name="PK_dbo.MenuEntities">
       <ObjectId>997578592</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.280</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.280</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.793</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.793</ModifiedTimestamp>
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>PK_dbo.MenuEntities</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="55" parent="23" name="FK_dbo.MenuEntities_dbo.FoodEntities_FoodId">
       <ObjectId>1061578820</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.287</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.287</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.807</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
       <ColNames>FoodId</ColNames>
       <RefTableId>949578421</RefTableId>
       <RefTableName>FoodEntities</RefTableName>
@@ -297,28 +287,36 @@
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="59" parent="24" name="PK_dbo.OrderEntities">
+    <column id="59" parent="24" name="ChiefToMakeOrder_Id">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="60" parent="24" name="PK_dbo.OrderEntities">
       <Position>1</Position>
       <ColNames>Id</ColNames>
       <Clustering>1</Clustering>
       <Unique>1</Unique>
     </index>
-    <index id="60" parent="24" name="IX_OrderedFoodId">
+    <index id="61" parent="24" name="IX_OrderedFoodId">
       <Position>2</Position>
       <ColNames>OrderedFoodId</ColNames>
     </index>
-    <key id="61" parent="24" name="PK_dbo.OrderEntities">
+    <index id="62" parent="24" name="IX_ChiefToMakeOrder_Id">
+      <Position>3</Position>
+      <ColNames>ChiefToMakeOrder_Id</ColNames>
+    </index>
+    <key id="63" parent="24" name="PK_dbo.OrderEntities">
       <ObjectId>1029578706</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.280</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.280</ModifiedTimestamp>
+      <CreatedTimestamp>2021-08-04.19:34:56.797</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.797</ModifiedTimestamp>
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>PK_dbo.OrderEntities</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="62" parent="24" name="FK_dbo.OrderEntities_dbo.FoodEntities_OrderedFoodId">
-      <ObjectId>1077578877</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.287</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.287</ModifiedTimestamp>
+    <foreign-key id="64" parent="24" name="FK_dbo.OrderEntities_dbo.FoodEntities_OrderedFoodId">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2021-08-04.19:34:56.807</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
       <ColNames>OrderedFoodId</ColNames>
       <RefTableId>949578421</RefTableId>
       <RefTableName>FoodEntities</RefTableName>
@@ -326,37 +324,47 @@
       <RefColNames>Id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="63" parent="25" name="MigrationId">
+    <foreign-key id="65" parent="24" name="FK_dbo.OrderEntities_dbo.ChiefEntities_ChiefToMakeOrder_Id">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2021-08-04.19:34:56.807</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.807</ModifiedTimestamp>
+      <ColNames>ChiefToMakeOrder_Id</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefTableName>ChiefEntities</RefTableName>
+      <RefKeyName>PK_dbo.ChiefEntities</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="66" parent="25" name="MigrationId">
       <Position>1</Position>
       <DataType>nvarchar(150 char)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="64" parent="25" name="ContextKey">
+    <column id="67" parent="25" name="ContextKey">
       <Position>2</Position>
       <DataType>nvarchar(300 char)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="65" parent="25" name="Model">
+    <column id="68" parent="25" name="Model">
       <Position>3</Position>
       <DataType>varbinary(max)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="66" parent="25" name="ProductVersion">
+    <column id="69" parent="25" name="ProductVersion">
       <Position>4</Position>
       <DataType>nvarchar(32 char)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="67" parent="25" name="PK_dbo.__MigrationHistory">
+    <index id="70" parent="25" name="PK_dbo.__MigrationHistory">
       <Position>1</Position>
       <ColNames>MigrationId
 ContextKey</ColNames>
       <Clustering>1</Clustering>
       <Unique>1</Unique>
     </index>
-    <key id="68" parent="25" name="PK_dbo.__MigrationHistory">
-      <ObjectId>1109578991</ObjectId>
-      <CreatedTimestamp>2021-06-28.19:56:58.290</CreatedTimestamp>
-      <ModifiedTimestamp>2021-06-28.19:56:58.290</ModifiedTimestamp>
+    <key id="71" parent="25" name="PK_dbo.__MigrationHistory">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2021-08-04.19:34:56.810</CreatedTimestamp>
+      <ModifiedTimestamp>2021-08-04.19:34:56.810</ModifiedTimestamp>
       <ColNames>MigrationId
 ContextKey</ColNames>
       <UnderlyingIndexName>PK_dbo.__MigrationHistory</UnderlyingIndexName>

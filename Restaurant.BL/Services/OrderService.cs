@@ -35,7 +35,6 @@ namespace Restaurant.BL.Services
         {
             Order newOrder = new Order();
             newOrder.OrderTime = DateTime.Now;
-            newOrder.OrderedFood = new Food();
             for (int i = 1; i < _unitOfWork.FoodRepository.GetAll().Count + 1; i++)
             {
                 if (idToOrder == i)
@@ -44,8 +43,6 @@ namespace Restaurant.BL.Services
                     break;
                 }
             }
-            // TODO Привязка шефа к OrderEntities
-            _unitOfWork.OrderRepository.Add(_orderMapper.convertToEntity(newOrder));
             return newOrder;
         }
     }

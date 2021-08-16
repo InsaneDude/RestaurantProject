@@ -12,15 +12,20 @@ namespace Restaurant.BL.Services
         private IChiefMapper _chiefMapper;
         private IInstrumentMapper _instrumentMapper;
         private IInstrumentService _instrumentService;
+        private IOrderMapper _orderMapper;
 
         public ChiefService(
-            IUnitOfWork unitOfWork, IChiefMapper chiefMapper,
-            IInstrumentMapper instrumentMapper, IInstrumentService instrumentService)
+            IUnitOfWork unitOfWork, 
+            IChiefMapper chiefMapper,
+            IInstrumentMapper instrumentMapper, 
+            IInstrumentService instrumentService,
+            IOrderMapper orderMapper)
         {
             _unitOfWork = unitOfWork;
             _chiefMapper = chiefMapper;
             _instrumentMapper = instrumentMapper;
             _instrumentService = instrumentService;
+            _orderMapper = orderMapper;
         }
 
         private Chief ChiefSelecting()
@@ -57,17 +62,20 @@ namespace Restaurant.BL.Services
         {
             Chief chiefToOperate = ChiefSelectsInstrument();
             int finalCookingTime;
-            if (order.OrderedFood.FoodNeedInstrument is false)
+            order.ChiefToMakeOrder = chiefToOperate;
+            _unitOfWork.OrderRepository.Add(_orderMapper.convertToEntity(order));
+            if (order.OrderedFood.FoodNeedInstrument is true)
             {
-                finalCookingTime = order.OrderedFood.CookingTime / chiefToOperate.Level;
+                finalCookingTime = (order.OrderedFood.CookingTime / chiefToOperate.Level) +
+                                   _instrumentService.InstrumentWarmingChecker(chiefToOperate.Instrument);
             }
             else
             {
-                finalCookingTime = (order.OrderedFood.CookingTime / chiefToOperate.Level) +
-                                       _instrumentService.InstrumentWarmingChecker(chiefToOperate.Instrument);
+                finalCookingTime = order.OrderedFood.CookingTime / chiefToOperate.Level;
             }
             DateTime orderBeReady = DateTime.Now.AddSeconds(finalCookingTime);
             // TODO добавить проверку когда можно освободить
+            // TODO пофиксить записи в таблицу
             chiefToOperate.IsFree = true;
             chiefToOperate.Instrument.IsInstrumentFree = true;
             chiefToOperate.Instrument = null;

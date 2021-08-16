@@ -31,14 +31,13 @@ namespace Restaurant.BL.Services
         public int InstrumentWarmingChecker(Instrument instrument)
         {
             TimeSpan timeToAdd = new TimeSpan(0,0,instrument.WarmingTime);
-            if (DateTime.Now > instrument.LastUsageTime &&
-                DateTime.Now < instrument.LastUsageTime + timeToAdd)
+            if (DateTime.Now > instrument.LastUsageTime + timeToAdd)
             {
-                return 0;
+                return instrument.WarmingTime;
             }
             else
             {
-                return instrument.WarmingTime;
+                return 0;
             }
         }
     }
