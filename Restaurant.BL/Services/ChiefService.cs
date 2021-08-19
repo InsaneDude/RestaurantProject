@@ -74,11 +74,11 @@ namespace Restaurant.BL.Services
                 finalCookingTime = order.OrderedFood.CookingTime / chiefToOperate.Level;
             }
             DateTime orderBeReady = DateTime.Now.AddSeconds(finalCookingTime);
-            // TODO добавить проверку когда можно освободить
-            // TODO пофиксить записи в таблицу
             chiefToOperate.IsFree = true;
             chiefToOperate.Instrument.IsInstrumentFree = true;
             chiefToOperate.Instrument = null;
+            _unitOfWork.ChiefRepository.Update(_chiefMapper.convertToEntity(chiefToOperate));
+            _unitOfWork.Save();
             return orderBeReady;
         }
     }

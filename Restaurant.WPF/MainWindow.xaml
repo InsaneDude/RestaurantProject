@@ -11,16 +11,11 @@
             <TextBlock Canvas.Top="15" Canvas.Left="15" 
                        FontFamily="Calibri" FontSize="15" 
                        FontWeight="Bold">Список доступной еды</TextBlock>
-            <ListBox Name="FoodList" Canvas.Top="32" Canvas.Left="20">
-                <ListBoxItem>Тест1</ListBoxItem>
-                <ListBoxItem>Тестинг2</ListBoxItem>
-                <ListBoxItem>Тестируем3</ListBoxItem>
-                <ListBoxItem>Проверка ширины4</ListBoxItem>
+            <ListBox Name="FoodList" ItemsSource="{Binding  Foods }" Canvas.Top="32" Canvas.Left="20">
             </ListBox>
-            <TextBlock Name="Info" Canvas.Top="32" Canvas.Left="200" 
-                       Text="{Binding Path = selectedFood}"></TextBlock>
-            <Button Name="OrderButton" Canvas.Top="100" Canvas.Left="200"
-                    Height="50" Width="200" Content="Заказать выбранную еду"></Button>
+                <Button Canvas.Top="100" Canvas.Left="200"
+                        Height="50" Width="200" Content="Заказать выбранную еду"
+                        Command="{Binding MakeOrderRC}"></Button>
         </Canvas>
     </Grid>
 </Window>

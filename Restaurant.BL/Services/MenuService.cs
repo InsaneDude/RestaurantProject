@@ -3,6 +3,7 @@ using Restaurant.BLModels.Models;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL.Repositories.Interfaces;
 using Restaurant.Mappers.MapperEntityToBL.Interfaces;
+using Restaurant.WPF.Models;
 
 namespace Restaurant.BL.Services
 {

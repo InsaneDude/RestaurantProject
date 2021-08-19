@@ -114,6 +114,10 @@
         <Project>{d9a240ee-a226-4f45-b1b7-b18478a493b2}</Project>
         <Name>Restaurant.BL</Name>
       </ProjectReference>
+      <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj">
+        <Project>{fe831e77-7c21-40cf-9363-aba5cc8ff125}</Project>
+        <Name>Restaurant.DAL</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Restaurant.Mappers\Restaurant.Mappers.csproj">
         <Project>{d2730f2c-baf9-4a88-911d-ab366b46aa72}</Project>
         <Name>Restaurant.Mappers</Name>

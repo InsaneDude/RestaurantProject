@@ -1,34 +1,41 @@
-using System.Windows;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Microsoft.Extensions.DependencyInjection;
+using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.WPF.Models;
+using Restaurant.Mappers.MapperBLToModel.Interfaces;
+using Restaurant.Mappers.MapperEntityToBL.Interfaces;
 
 namespace Restaurant.WPF.ViewModels
 {
     public class MainWindowViewModel : BaseViewModel
     {
-        private readonly IOrderService _orderService;
-        private readonly IMenuService _menuService;
-        private readonly IChiefService _chiefService;
-        private readonly IInstrumentService _instrumentService;
+        private readonly IServiceProvider _serviceProvider;
+
+        private FoodModel selectedFoodFromList;
+        public RelayCommand MakeOrderRC { get; private set; }
+        public ObservableCollection<FoodModel> Foods { get; set; }
         
-        // public RelayCommand MakeOrder { get; private set; }
-
-        public MainWindowViewModel(
-            IOrderService orderService, IChiefService chiefService,
-            IMenuService menuService, IInstrumentService instrumentService)
+        public MainWindowViewModel(IServiceProvider serviceProvider)
         {
-            _orderService = orderService;
-            _chiefService = chiefService;
-            _menuService = menuService;
-            _instrumentService = instrumentService;
+            _serviceProvider = serviceProvider;
+            MakeOrderRC = new RelayCommand(obj => MakeOrder());
         }
-
+        
+        
+        // Foods = new ObservableCollection<FoodModel>();
+        // for (int i = 0; i < _serviceProvider.GetService<IMenuService>().ShowMenu().Count; i++)
+        // {
+        //     Foods.Add( _serviceProvider.GetService<IFoodMapperBLModel>().
+        //         convertToModel(_serviceProvider.GetService<IMenuService>().ShowMenu()[i]));
         public FoodModel SelectedFoodFromList
         {
-            get => SelectedFoodFromList;
+            get => selectedFoodFromList;
             set
             {
-                SelectedFoodFromList = value;
+                selectedFoodFromList = value;
                 OnPropertyChanged("SelectedFoodFromList");
             }
         }
@@ -37,9 +44,8 @@ namespace Restaurant.WPF.ViewModels
         {
             if (SelectedFoodFromList == null)
             {
-                _orderService.AddOrder(1);st
+                _serviceProvider.GetService<IOrderService>().AddOrder(1);
             }
         }
-        // MakeOrderCommand = new RelayCommand(obj => MakeOrder());
     }
 }

@@ -14,13 +14,23 @@ namespace Restaurant.Mappers.MapperEntityToBL
         }
         public ChiefEntity convertToEntity(Chief model)
         {
+            if (model.Instrument != null)
+            {
+                return new ChiefEntity 
+                { 
+                    Name = model.Name, 
+                    Level = model.Level,
+                    IsFree = model.IsFree, 
+                    Id = model.Id,
+                    Instrument = _instrumentMapper.convertToEntity(model.Instrument)
+                };
+            }
             return new ChiefEntity 
             { 
                 Name = model.Name, 
-                Level = model.Level, 
-                IsFree = model.IsFree, 
-                Id = model.Id,
-                Instrument = _instrumentMapper.convertToEntity(model.Instrument),
+                Level = model.Level,
+                IsFree = model.IsFree,
+                Id = model.Id
             };
         }
 
@@ -31,7 +41,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
                 return new Chief 
                 { 
                     Name = entity.Name, 
-                    Level = entity.Level, // error
+                    Level = entity.Level,
                     IsFree = entity.IsFree, 
                     Id = entity.Id,
                     Instrument = _instrumentMapper.convertToModel(entity.Instrument)
@@ -40,7 +50,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
             return new Chief 
             { 
                 Name = entity.Name, 
-                Level = entity.Level, // error
+                Level = entity.Level,
                 IsFree = entity.IsFree,
                 Id = entity.Id
             };

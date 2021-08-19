@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
 using Restaurant.BL.Services.Abstract;
+using Restaurant.DAL;
+using Restaurant.Mappers.MapperBLToModel;
+using Restaurant.Mappers.MapperEntityToBL;
 using Restaurant.WPF.ViewModels;
 
 namespace Restaurant.WPF
@@ -16,20 +19,16 @@ namespace Restaurant.WPF
         public App()
         {
             var services = new ServiceCollection();
+            services.RegisterDAL();
             services.RegisterBL();
-            serviceProvider = services.BuildServiceProvider();
+            services.AddSingleton<MainWindow>();
+            services.AddTransient<MainWindowViewModel>();
+            serviceProvider = services.BuildServiceProvider(); 
         }
-
-        // protected override void OnStartup(StartupEventArgs e)
-        // {
-        // MainWindowViewModel mainWindowViewModel = new MainWindowViewModel(
-        //     serviceProvider.GetService<IOrderService>(),
-        //     serviceProvider.GetService<IChiefService>(),
-        //     serviceProvider.GetService<IMenuService>(),
-        //     serviceProvider.GetService<IInstrumentService>());
-        //     MainWindow mainWindow = new MainWindow();    
-        //     mainWindow.DataContext = mainWindowViewModel;
-        //     MainWindow.Show();
-        // }
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            MainWindow app = serviceProvider.GetService<MainWindow>();
+        }
     }
 }
