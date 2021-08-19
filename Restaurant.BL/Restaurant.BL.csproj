@@ -10,12 +10,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="Restaurant.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\Restaurant.Entities\bin\Debug\net472\Restaurant.Entities.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj" />
       <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj" />
       <ProjectReference Include="..\Restaurant.Mappers\Restaurant.Mappers.csproj" />

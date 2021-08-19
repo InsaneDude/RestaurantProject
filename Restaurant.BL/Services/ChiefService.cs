@@ -8,11 +8,11 @@ namespace Restaurant.BL.Services
 {
     public class ChiefService : IChiefService
     {
-        private IUnitOfWork _unitOfWork;
-        private IChiefMapper _chiefMapper;
-        private IInstrumentMapper _instrumentMapper;
-        private IInstrumentService _instrumentService;
-        private IOrderMapper _orderMapper;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IChiefMapper _chiefMapper;
+        private readonly IInstrumentMapper _instrumentMapper;
+        private readonly IInstrumentService _instrumentService;
+        private readonly IOrderMapper _orderMapper;
 
         public ChiefService(
             IUnitOfWork unitOfWork, 
@@ -39,6 +39,7 @@ namespace Restaurant.BL.Services
                     chiefToFind.IsFree = false;
                     break;
                 }
+                // TODO query FoD
             }
             return chiefToFind;
         }
@@ -64,7 +65,7 @@ namespace Restaurant.BL.Services
             int finalCookingTime;
             order.ChiefToMakeOrder = chiefToOperate;
             _unitOfWork.OrderRepository.Add(_orderMapper.convertToEntity(order));
-            if (order.OrderedFood.FoodNeedInstrument is true)
+            if (order.OrderedFood.FoodNeedInstrument)
             {
                 finalCookingTime = (order.OrderedFood.CookingTime / chiefToOperate.Level) +
                                    _instrumentService.InstrumentWarmingChecker(chiefToOperate.Instrument);
@@ -79,6 +80,7 @@ namespace Restaurant.BL.Services
             chiefToOperate.Instrument = null;
             _unitOfWork.ChiefRepository.Update(_chiefMapper.convertToEntity(chiefToOperate));
             _unitOfWork.Save();
+            // TODO transactions check
             return orderBeReady;
         }
     }

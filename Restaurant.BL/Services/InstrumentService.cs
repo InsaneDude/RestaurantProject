@@ -9,8 +9,8 @@ namespace Restaurant.BL.Services
 {
     public class InstrumentService : IInstrumentService
     {
-        private IUnitOfWork _unitOfWork;
-        private IInstrumentMapper _instrumentMapper;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IInstrumentMapper _instrumentMapper;
 
         public InstrumentService(IUnitOfWork unitOfWork, IInstrumentMapper instrumentMapper)
         {
@@ -31,14 +31,13 @@ namespace Restaurant.BL.Services
         public int InstrumentWarmingChecker(Instrument instrument)
         {
             TimeSpan timeToAdd = new TimeSpan(0,0,instrument.WarmingTime);
+            
             if (DateTime.Now > instrument.LastUsageTime + timeToAdd)
             {
                 return instrument.WarmingTime;
             }
-            else
-            {
-                return 0;
-            }
+            
+            return 0;
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
 {
     public class ChiefMapper : IChiefMapper
     {
-        private IInstrumentMapper _instrumentMapper;
+        private readonly IInstrumentMapper _instrumentMapper;
 
         public ChiefMapper(IInstrumentMapper instrumentMapper)
         {
@@ -47,6 +47,9 @@ namespace Restaurant.Mappers.MapperEntityToBL
                     Instrument = _instrumentMapper.convertToModel(entity.Instrument)
                 };
             }
+            // TODO Спросить тут
+            
+            // TODO убрать обращение к объектам напрямую
             return new Chief 
             { 
                 Name = entity.Name, 

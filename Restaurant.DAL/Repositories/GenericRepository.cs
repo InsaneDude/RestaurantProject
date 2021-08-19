@@ -33,6 +33,7 @@ namespace Restaurant.DAL.Repositories
         {
             T find = Get(entity.Id);
             context.Entry(find).CurrentValues.SetValues(entity);
+            // TODO переделать апдейт
         }
 
         public List<T> GetAll()

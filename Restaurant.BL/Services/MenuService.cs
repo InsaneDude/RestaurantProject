@@ -9,8 +9,8 @@ namespace Restaurant.BL.Services
 {
     public class MenuService : IMenuService
     {
-        private IUnitOfWork _unitOfWork;
-        private IFoodMapper _foodMapper;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IFoodMapper _foodMapper;
 
         public MenuService(
             IUnitOfWork unitOfWork, IFoodMapper foodMapper)
@@ -26,6 +26,7 @@ namespace Restaurant.BL.Services
                 Menu.Add(_foodMapper.convertToModel(foodNow));
             }
             return Menu;
+            // TODO LINQ в 1 лінію
         }
     }
 }

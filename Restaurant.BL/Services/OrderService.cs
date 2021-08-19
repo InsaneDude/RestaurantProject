@@ -20,6 +20,7 @@ namespace Restaurant.BL.Services
             _orderMapper = orderMapper;
             _foodMapper = foodMapper;
         }
+        // ?
 
         public List<Order> GetAllOrders()
         {
@@ -28,6 +29,7 @@ namespace Restaurant.BL.Services
             {
                 orderList.Add(_orderMapper.convertToModel(orderNow));
             }
+            // TODO LINQ замість циклу
             return orderList;
         }
         
@@ -43,6 +45,7 @@ namespace Restaurant.BL.Services
                     break;
                 }
             }
+            // TODO переробити addOrder і цикл
             return newOrder;
         }
     }
