@@ -1,4 +1,4 @@
-using Restaurant.BLModels.Models;
+using Restaurant.Models;
 using Restaurant.DAL.Entities;
 using Restaurant.Mappers.MapperEntityToBL.Interfaces;
 

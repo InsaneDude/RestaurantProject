@@ -4,9 +4,9 @@ using System.Collections.ObjectModel;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
-using Restaurant.WPF.Models;
 using Restaurant.Mappers.MapperBLToModel.Interfaces;
 using Restaurant.Mappers.MapperEntityToBL.Interfaces;
+using VModels.Models;
 
 namespace Restaurant.WPF.ViewModels
 {

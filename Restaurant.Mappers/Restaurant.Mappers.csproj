@@ -63,13 +63,13 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj">
-        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
-        <Name>Restaurant.BLModels</Name>
-      </ProjectReference>
       <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj">
         <Project>{fe831e77-7c21-40cf-9363-aba5cc8ff125}</Project>
         <Name>Restaurant.DAL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.Models\Restaurant.Models.csproj">
+        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
+        <Name>Restaurant.Models</Name>
       </ProjectReference>
       <ProjectReference Include="..\Restaurant.VModels\Restaurant.VModels.csproj">
         <Project>{81989cf5-7215-4a7d-b502-8106902496f6}</Project>

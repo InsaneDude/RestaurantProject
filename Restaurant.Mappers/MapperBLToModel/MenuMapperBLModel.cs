@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-
-using Restaurant.BLModels.Models;
+using Restaurant.Models;
 using Restaurant.Mappers.MapperBLToModel.Interfaces;
-using Restaurant.WPF.Models;
+using VModels.Models;
 
 
 namespace Restaurant.Mappers.MapperBLToModel

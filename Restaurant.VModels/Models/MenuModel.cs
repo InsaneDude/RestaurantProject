@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-
-namespace Restaurant.WPF.Models
+namespace VModels.Models
 {
     public class MenuModel
     {

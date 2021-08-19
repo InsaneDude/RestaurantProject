@@ -1,5 +1,5 @@
-using Restaurant.BLModels.Models;
-using Restaurant.WPF.Models;
+using Restaurant.Models;
+using VModels.Models;
 
 namespace Restaurant.Mappers.MapperBLToModel.Interfaces
 {

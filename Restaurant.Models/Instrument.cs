@@ -1,6 +1,6 @@
 using System;
 
-namespace Restaurant.BLModels.Models
+namespace Restaurant.Models
 {
     public class Instrument
     {

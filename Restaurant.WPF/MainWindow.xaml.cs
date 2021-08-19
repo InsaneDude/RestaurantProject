@@ -6,7 +6,6 @@ using Restaurant.BL;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.Mappers.MapperBLToModel.Interfaces;
 using Restaurant.WPF;
-using Restaurant.WPF.Models;
 using Restaurant.WPF.ViewModels;
 
 namespace Restaurant.WPF

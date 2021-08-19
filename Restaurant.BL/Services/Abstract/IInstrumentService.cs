@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Restaurant.BLModels.Models;
+using Restaurant.Models;
 
 namespace Restaurant.BL.Services.Abstract
 {

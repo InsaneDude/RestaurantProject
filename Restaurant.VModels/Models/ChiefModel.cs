@@ -1,4 +1,4 @@
-namespace Restaurant.WPF.Models
+namespace VModels.Models
 {
     public class ChiefModel
     {

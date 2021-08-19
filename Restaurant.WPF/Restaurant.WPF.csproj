@@ -106,10 +106,6 @@
         <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj">
-        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
-        <Name>Restaurant.BLModels</Name>
-      </ProjectReference>
       <ProjectReference Include="..\Restaurant.BL\Restaurant.BL.csproj">
         <Project>{d9a240ee-a226-4f45-b1b7-b18478a493b2}</Project>
         <Name>Restaurant.BL</Name>
@@ -121,6 +117,10 @@
       <ProjectReference Include="..\Restaurant.Mappers\Restaurant.Mappers.csproj">
         <Project>{d2730f2c-baf9-4a88-911d-ab366b46aa72}</Project>
         <Name>Restaurant.Mappers</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.Models\Restaurant.Models.csproj">
+        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
+        <Name>Restaurant.Models</Name>
       </ProjectReference>
       <ProjectReference Include="..\Restaurant.VModels\Restaurant.VModels.csproj">
         <Project>{81989cf5-7215-4a7d-b502-8106902496f6}</Project>

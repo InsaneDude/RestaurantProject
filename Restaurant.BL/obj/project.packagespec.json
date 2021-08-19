@@ -16,14 +16,14 @@
     "frameworks": {
       "net472": {
         "projectReferences": {
-          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj": {
-            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj"
-          },
           "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
             "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
           },
           "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj": {
             "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj"
+          },
+          "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+            "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
           }
         }
       }

@@ -4,21 +4,6 @@
     "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.CLI\\Restaurant.CLI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj",
-        "projectName": "Restaurant.BLModels",
-        "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
     "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BL\\Restaurant.BL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -43,14 +28,14 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj": {
-                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj"
-              },
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
               },
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj"
+              },
+              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
               }
             }
           }
@@ -183,16 +168,31 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj": {
-                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj"
-              },
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
+              },
+              "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+                "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
               },
               "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.VModels\\Restaurant.VModels.csproj": {
                 "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.VModels\\Restaurant.VModels.csproj"
               }
             }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
+        "projectName": "Restaurant.Models",
+        "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
           }
         }
       },

@@ -1,13 +1,11 @@
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Mappers.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Mappers.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.BLModels.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.DAL.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.VModels.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\EntityFramework.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.BLModels.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.DAL.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.DAL.dll.config
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.VModels.pdb
@@ -16,3 +14,5 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debu
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\Restaurant.Mappers.csproj.CopyComplete
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\Restaurant.Mappers.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\Restaurant.Mappers.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Models.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Models.pdb

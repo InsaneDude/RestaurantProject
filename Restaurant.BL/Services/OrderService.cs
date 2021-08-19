@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Restaurant.BLModels.Models;
 using Restaurant.BL.Services.Abstract;
+using Restaurant.Models;
 using Restaurant.DAL.Repositories.Interfaces;
 using Restaurant.Mappers.MapperEntityToBL.Interfaces;
 
