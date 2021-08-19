@@ -38,11 +38,43 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="MapperBLToModel\ChiefMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\FoodMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\InstrumentMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IChiefMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IFoodMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IInstrumentMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IMenuMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\Interfaces\IOrderMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\MenuMapperBLModel.cs" />
+        <Compile Include="MapperBLToModel\OrderMapperBLModel.cs" />
+        <Compile Include="MapperEntityToBL\ChiefMapper.cs" />
+        <Compile Include="MapperEntityToBL\FoodMapper.cs" />
+        <Compile Include="MapperEntityToBL\InstrumentMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IChiefMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IFoodMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IInstrumentMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IMenuMapper.cs" />
+        <Compile Include="MapperEntityToBL\Interfaces\IOrderMapper.cs" />
+        <Compile Include="MapperEntityToBL\MenuMapper.cs" />
+        <Compile Include="MapperEntityToBL\OrderMapper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="MapperBLToModel" />
-      <Folder Include="MapperDALToBL" />
+      <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj">
+        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
+        <Name>Restaurant.BLModels</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj">
+        <Project>{fe831e77-7c21-40cf-9363-aba5cc8ff125}</Project>
+        <Name>Restaurant.DAL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.VModels\Restaurant.VModels.csproj">
+        <Project>{81989cf5-7215-4a7d-b502-8106902496f6}</Project>
+        <Name>Restaurant.VModels</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

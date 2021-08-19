@@ -34,9 +34,30 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.6.0.0-preview.7.21377.19\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0-preview.7.21377.19\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="mscorlib" />
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
         <Reference Include="System.Xml" />
         <Reference Include="System.Xaml">
             <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -50,11 +71,7 @@
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
-        <Compile Include="Models\ChiefModel.cs" />
-        <Compile Include="Models\FoodModel.cs" />
-        <Compile Include="Models\InstrumentModel.cs" />
-        <Compile Include="Models\MenuModel.cs" />
-        <Compile Include="Models\OrderModel.cs" />
+        <Compile Include="RelayCommand.cs" />
         <Compile Include="ViewModels\BaseViewModel.cs" />
         <Compile Include="ViewModels\MainWindowViewModel.cs" />
         <Page Include="MainWindow.xaml">
@@ -86,11 +103,24 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="App.config" />
+        <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj">
+        <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
+        <Name>Restaurant.BLModels</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Restaurant.BL\Restaurant.BL.csproj">
         <Project>{d9a240ee-a226-4f45-b1b7-b18478a493b2}</Project>
         <Name>Restaurant.BL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.Mappers\Restaurant.Mappers.csproj">
+        <Project>{d2730f2c-baf9-4a88-911d-ab366b46aa72}</Project>
+        <Name>Restaurant.Mappers</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Restaurant.VModels\Restaurant.VModels.csproj">
+        <Project>{81989cf5-7215-4a7d-b502-8106902496f6}</Project>
+        <Name>Restaurant.VModels</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

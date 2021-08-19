@@ -17,3 +17,9 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\obj\Debug\net
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\obj\Debug\net472\Restaurant.BL.csproj.CopyComplete
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\obj\Debug\net472\Restaurant.BL.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\obj\Debug\net472\Restaurant.BL.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.BLModels.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.Mappers.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.VModels.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.BLModels.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.Mappers.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\bin\Debug\net472\Restaurant.VModels.pdb

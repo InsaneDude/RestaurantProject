@@ -16,7 +16,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Restaurant.BLModels\Restaurant.BLModels.csproj" />
       <ProjectReference Include="..\Restaurant.DAL\Restaurant.DAL.csproj" />
+      <ProjectReference Include="..\Restaurant.Mappers\Restaurant.Mappers.csproj" />
     </ItemGroup>
 
 </Project>

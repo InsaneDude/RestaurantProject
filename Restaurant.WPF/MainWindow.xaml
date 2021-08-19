@@ -5,18 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Restaurant.WPF"
         mc:Ignorable="d"
-        Title="Ресторан" Height="300" Width="400">
+        Title="Ресторан" Height="300" Width="425">
     <Grid>
         <Canvas Background="Linen">
-            <ListBox Name="foodList" Canvas.Top="75" Canvas.Left="20">
-                <TextBlock FontWeight="Bold" TextDecorations="Underline" Text="Доступная еда" />
-                <ListBoxItem Content="Тест"></ListBoxItem>  
-                <ListBoxItem Content="Tea"></ListBoxItem>  
-                <ListBoxItem Content="Orange Juice"></ListBoxItem>  
-                <ListBoxItem Content="Milk"></ListBoxItem>  
-                <ListBoxItem Content="Iced Tea"></ListBoxItem>  
-                <ListBoxItem Content="Mango Shake"></ListBoxItem>  
+            <TextBlock Canvas.Top="15" Canvas.Left="15" 
+                       FontFamily="Calibri" FontSize="15" 
+                       FontWeight="Bold">Список доступной еды</TextBlock>
+            <ListBox Name="FoodList" Canvas.Top="32" Canvas.Left="20">
+                <ListBoxItem>Тест1</ListBoxItem>
+                <ListBoxItem>Тестинг2</ListBoxItem>
+                <ListBoxItem>Тестируем3</ListBoxItem>
+                <ListBoxItem>Проверка ширины4</ListBoxItem>
             </ListBox>
+            <TextBlock Name="Info" Canvas.Top="32" Canvas.Left="200" 
+                       Text="{Binding Path = selectedFood}"></TextBlock>
+            <Button Name="OrderButton" Canvas.Top="100" Canvas.Left="200"
+                    Height="50" Width="200" Content="Заказать выбранную еду"></Button>
         </Canvas>
     </Grid>
 </Window>

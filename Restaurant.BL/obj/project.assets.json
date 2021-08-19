@@ -90,6 +90,15 @@
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "Restaurant.BLModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Restaurant.BLModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.BLModels.dll": {}
+        }
+      },
       "Restaurant.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
@@ -102,6 +111,29 @@
         },
         "runtime": {
           "bin/placeholder/Restaurant.DAL.dll": {}
+        }
+      },
+      "Restaurant.Mappers/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Restaurant.BLModels": "1.0.0",
+          "Restaurant.DAL": "1.0.0",
+          "Restaurant.VModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Mappers.dll": {}
+        }
+      },
+      "Restaurant.VModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Restaurant.VModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.VModels.dll": {}
         }
       }
     }
@@ -291,17 +323,34 @@
         "version.txt"
       ]
     },
+    "Restaurant.BLModels/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.BLModels/Restaurant.BLModels.csproj",
+      "msbuildProject": "../Restaurant.BLModels/Restaurant.BLModels.csproj"
+    },
     "Restaurant.DAL/1.0.0": {
       "type": "project",
       "path": "../Restaurant.DAL/Restaurant.DAL.csproj",
       "msbuildProject": "../Restaurant.DAL/Restaurant.DAL.csproj"
+    },
+    "Restaurant.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Mappers/Restaurant.Mappers.csproj",
+      "msbuildProject": "../Restaurant.Mappers/Restaurant.Mappers.csproj"
+    },
+    "Restaurant.VModels/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.VModels/Restaurant.VModels.csproj",
+      "msbuildProject": "../Restaurant.VModels/Restaurant.VModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "EntityFramework >= 6.4.4",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0-preview.5.21301.5",
-      "Restaurant.DAL >= 1.0.0"
+      "Restaurant.BLModels >= 1.0.0",
+      "Restaurant.DAL >= 1.0.0",
+      "Restaurant.Mappers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -331,8 +380,14 @@
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.BLModels\\Restaurant.BLModels.csproj"
+            },
             "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj": {
               "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.DAL\\Restaurant.DAL.csproj"
+            },
+            "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj": {
+              "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj"
             }
           }
         }

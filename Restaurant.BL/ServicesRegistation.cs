@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
-using Restaurant.BL.Mappers;
-using Restaurant.BL.Mappers.Interfaces;
 using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
+using Restaurant.Mappers.MapperEntityToBL;
+using Restaurant.Mappers.MapperEntityToBL.Interfaces;
 
 
 namespace Restaurant.BL

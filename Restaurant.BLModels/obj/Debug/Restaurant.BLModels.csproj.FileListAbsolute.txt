@@ -1,0 +1,6 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\bin\Debug\Restaurant.BLModels.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\bin\Debug\Restaurant.BLModels.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\obj\Debug\Restaurant.BLModels.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\obj\Debug\Restaurant.BLModels.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\obj\Debug\Restaurant.BLModels.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BLModels\obj\Debug\Restaurant.BLModels.pdb

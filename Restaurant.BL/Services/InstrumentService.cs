@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Restaurant.BL.Mappers.Interfaces;
-using Restaurant.BL.Models;
+using Restaurant.BLModels.Models;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL.Repositories.Interfaces;
+using Restaurant.Mappers.MapperEntityToBL.Interfaces;
 
 namespace Restaurant.BL.Services
 {
