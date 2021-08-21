@@ -1,6 +1,0 @@
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\bin\Debug\Restaurant.VModels.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\bin\Debug\Restaurant.VModels.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\obj\Debug\Restaurant.VModels.csprojAssemblyReference.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\obj\Debug\Restaurant.VModels.csproj.CoreCompileInputs.cache
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\obj\Debug\Restaurant.VModels.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.VModels\obj\Debug\Restaurant.VModels.pdb

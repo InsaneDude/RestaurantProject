@@ -21,7 +21,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
         public Instrument convertToModel(InstrumentEntity entity)
         {
             return new Instrument
-            { // error all
+            {
                 Name = entity.Name, 
                 WarmingTime = entity.WarmingTime,
                 IsInstrumentFree = entity.IsInstrumentFree,

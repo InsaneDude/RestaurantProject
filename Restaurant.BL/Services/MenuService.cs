@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.Models;
 using Restaurant.DAL.Repositories.Interfaces;
@@ -17,15 +18,12 @@ namespace Restaurant.BL.Services
             _unitOfWork = unitOfWork;
             _foodMapper = foodMapper;
         }
+        
         public List<Food> ShowMenu()
         {
             List<Food> Menu = new List<Food>();
-            foreach (var foodNow in _unitOfWork.FoodRepository.GetAll())
-            {
-                Menu.Add(_foodMapper.convertToModel(foodNow));
-            }
+            _unitOfWork.FoodRepository.GetAll().ForEach(foodNow => Menu.Add(_foodMapper.convertToModel(foodNow)));
             return Menu;
-            // TODO LINQ в 1 лінію
         }
     }
 }

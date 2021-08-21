@@ -4,9 +4,8 @@ using System.Collections.ObjectModel;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL.Services;
 using Restaurant.BL.Services.Abstract;
-using Restaurant.Mappers.MapperBLToModel.Interfaces;
 using Restaurant.Mappers.MapperEntityToBL.Interfaces;
-using VModels.Models;
+using Restaurant.Models;
 
 namespace Restaurant.WPF.ViewModels
 {
@@ -14,9 +13,9 @@ namespace Restaurant.WPF.ViewModels
     {
         private readonly IServiceProvider _serviceProvider;
 
-        private FoodModel selectedFoodFromList;
+        private Food selectedFoodFromList;
         public RelayCommand MakeOrderRC { get; private set; }
-        public ObservableCollection<FoodModel> Foods { get; set; }
+        public ObservableCollection<Food> Foods { get; set; }
         
         public MainWindowViewModel(IServiceProvider serviceProvider)
         {
@@ -30,7 +29,7 @@ namespace Restaurant.WPF.ViewModels
         // {
         //     Foods.Add( _serviceProvider.GetService<IFoodMapperBLModel>().
         //         convertToModel(_serviceProvider.GetService<IMenuService>().ShowMenu()[i]));
-        public FoodModel SelectedFoodFromList
+        public Food SelectedFoodFromList
         {
             get => selectedFoodFromList;
             set
@@ -44,7 +43,7 @@ namespace Restaurant.WPF.ViewModels
         {
             if (SelectedFoodFromList == null)
             {
-                _serviceProvider.GetService<IOrderService>().AddOrder(1);
+                // _serviceProvider.GetService<IOrderService>().AddOrder(1);
             }
         }
     }

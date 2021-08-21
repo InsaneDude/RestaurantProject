@@ -8,24 +8,24 @@ namespace Restaurant.CLI
 {
     public class ConsoleApp
     {
-        private readonly ServiceProvider serviceProvider;
+        private readonly ServiceProvider _serviceProvider;
 
         public ConsoleApp()
         {
             var services = new ServiceCollection();
             services.RegisterDAL();
             services.RegisterBL();
-            serviceProvider = services.BuildServiceProvider();
+            _serviceProvider = services.BuildServiceProvider();
         }
 
         public void RunConsoleApp()
         {
             IOrderService orderService = 
-                serviceProvider.GetRequiredService<IOrderService>();
+                _serviceProvider.GetRequiredService<IOrderService>();
             IChiefService chiefService = 
-                serviceProvider.GetRequiredService<IChiefService>();
+                _serviceProvider.GetRequiredService<IChiefService>();
             IMenuService menuService =
-                serviceProvider.GetRequiredService<IMenuService>();
+                _serviceProvider.GetRequiredService<IMenuService>();
             Console.WriteLine("Приветствуем Вас в нашем ресторане.");
             while (true)
             {
@@ -40,6 +40,7 @@ namespace Restaurant.CLI
                         Console.WriteLine("Меню : ");
                         for (int i = 0; i < menuService.ShowMenu().Count; i++)
                         {
+                            // мб StringBuilder тут
                             Console.WriteLine($"Блюдо #{menuService.ShowMenu()[i].Id}" +
                                               $" {menuService.ShowMenu()[i].Name}, " +
                                               $"весит {menuService.ShowMenu()[i].Weight}. " +
@@ -59,8 +60,7 @@ namespace Restaurant.CLI
                         break;
                     case 3:
                         Console.WriteLine("Завершение работы программы.");
-                        Environment.Exit(0);
-                        break;
+                        return;
                 }
             }
         }

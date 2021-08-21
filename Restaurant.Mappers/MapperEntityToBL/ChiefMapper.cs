@@ -48,10 +48,8 @@ namespace Restaurant.Mappers.MapperEntityToBL
                 };
             }
             // TODO Спросить тут
-            
-            // TODO убрать обращение к объектам напрямую
             return new Chief 
-            { 
+            {
                 Name = entity.Name, 
                 Level = entity.Level,
                 IsFree = entity.IsFree,

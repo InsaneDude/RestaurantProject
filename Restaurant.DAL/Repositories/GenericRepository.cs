@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using Restaurant.DAL.Entities;
 using Restaurant.DAL.Repositories.Interfaces;
@@ -7,10 +8,12 @@ namespace Restaurant.DAL.Repositories
 {
     public class GenericRepository<T, K> : IGenericRepository<T, K> where T : BaseEntity<K>
     {
-        public readonly RestaurantDBContext context;
+        private readonly RestaurantDBContext context;
+        // private readonly DbSet<T> table = null;
 
         public GenericRepository(RestaurantDBContext context)
         {
+            // table = context.Set<T>();
             this.context = context;
         }
         
@@ -31,11 +34,14 @@ namespace Restaurant.DAL.Repositories
 
         public void Update(T entity)
         {
-            T find = Get(entity.Id);
-            context.Entry(find).CurrentValues.SetValues(entity);
-            // TODO переделать апдейт
-        }
+            // старое
+            // T find = Get(entity.Id);
+            // context.Entry(find).CurrentValues.SetValues(entity);
 
+            // context.Entry(entity).State = EntityState.Modified;
+            // context.SaveChanges();
+        }
+        
         public List<T> GetAll()
         {
             return context.Set<T>().ToList();

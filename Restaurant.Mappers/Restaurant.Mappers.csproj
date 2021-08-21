@@ -38,17 +38,6 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="MapperBLToModel\ChiefMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\FoodMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\InstrumentMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IChiefMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IFoodMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IInstrumentMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IMenuMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\Interfaces\IOrderMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\MenuMapperBLModel.cs" />
-        <Compile Include="MapperBLToModel\OrderMapperBLModel.cs" />
         <Compile Include="MapperEntityToBL\ChiefMapper.cs" />
         <Compile Include="MapperEntityToBL\FoodMapper.cs" />
         <Compile Include="MapperEntityToBL\InstrumentMapper.cs" />

@@ -4,7 +4,6 @@ using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
 using Restaurant.BL.Services.Abstract;
-using Restaurant.Mappers.MapperBLToModel.Interfaces;
 using Restaurant.WPF;
 using Restaurant.WPF.ViewModels;
 

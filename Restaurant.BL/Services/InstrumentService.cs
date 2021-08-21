@@ -21,10 +21,10 @@ namespace Restaurant.BL.Services
         public List<Instrument> GetAllInstruments()
         {
             List<Instrument> instrumentList = new List<Instrument>();
-            foreach (var instrumentNow in _unitOfWork.InstrumentRepository.GetAll())
-            {
-                instrumentList.Add(_instrumentMapper.convertToModel(instrumentNow));
-            }
+            _unitOfWork.InstrumentRepository
+                .GetAll()
+                .ForEach(instrumentNow => 
+                    instrumentList.Add(_instrumentMapper.convertToModel(instrumentNow)));
             return instrumentList;
         }
 

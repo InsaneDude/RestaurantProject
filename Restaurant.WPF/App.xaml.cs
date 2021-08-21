@@ -3,7 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL;
-using Restaurant.Mappers.MapperBLToModel;
 using Restaurant.Mappers.MapperEntityToBL;
 using Restaurant.WPF.ViewModels;
 

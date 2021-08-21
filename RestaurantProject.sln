@@ -12,8 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Mappers", "Resta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Models", "Restaurant.Models\Restaurant.Models.csproj", "{1A7BC920-F1D0-47A2-94F0-088B814B927E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.VModels", "Restaurant.VModels\Restaurant.VModels.csproj", "{81989CF5-7215-4A7D-B502-8106902496F6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,9 +42,5 @@ Global
 		{1A7BC920-F1D0-47A2-94F0-088B814B927E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7BC920-F1D0-47A2-94F0-088B814B927E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7BC920-F1D0-47A2-94F0-088B814B927E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81989CF5-7215-4A7D-B502-8106902496F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81989CF5-7215-4A7D-B502-8106902496F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81989CF5-7215-4A7D-B502-8106902496F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81989CF5-7215-4A7D-B502-8106902496F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

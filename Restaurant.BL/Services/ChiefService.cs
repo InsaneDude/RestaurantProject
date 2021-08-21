@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Restaurant.BL.Services.Abstract;
 using Restaurant.Models;
 using Restaurant.DAL.Repositories.Interfaces;
@@ -30,32 +31,20 @@ namespace Restaurant.BL.Services
 
         private Chief ChiefSelecting()
         {
-            Chief chiefToFind = new Chief();
-            foreach (var chiefNow in _unitOfWork.ChiefRepository.GetAll())
-            {
-                if (chiefNow.IsFree is true)
-                {
-                    chiefToFind = _chiefMapper.convertToModel(chiefNow);
-                    chiefToFind.IsFree = false;
-                    break;
-                }
-                // TODO query FoD
-            }
+            Chief chiefToFind = _chiefMapper.convertToModel(_unitOfWork.ChiefRepository
+                .GetAll()
+                .FirstOrDefault(freeChief => freeChief.IsFree is true));
+            chiefToFind.IsFree = false;
             return chiefToFind;
         }
         
         private Chief ChiefSelectsInstrument()
         {
             Chief chiefToGiveInstrument = ChiefSelecting();
-            foreach (var instrumentNow in _unitOfWork.InstrumentRepository.GetAll())
-            {
-                if (instrumentNow.IsInstrumentFree is true)
-                {
-                    chiefToGiveInstrument.Instrument = _instrumentMapper.convertToModel(instrumentNow);
-                    chiefToGiveInstrument.Instrument.IsInstrumentFree = false;
-                    break;
-                }
-            }
+            chiefToGiveInstrument.Instrument = _instrumentMapper.convertToModel(_unitOfWork.InstrumentRepository
+                .GetAll()
+                .FirstOrDefault(freeInstr => freeInstr.IsInstrumentFree is true));
+            chiefToGiveInstrument.Instrument.IsInstrumentFree = false;
             return chiefToGiveInstrument;
         }
 
@@ -78,9 +67,9 @@ namespace Restaurant.BL.Services
             chiefToOperate.IsFree = true;
             chiefToOperate.Instrument.IsInstrumentFree = true;
             chiefToOperate.Instrument = null;
-            _unitOfWork.ChiefRepository.Update(_chiefMapper.convertToEntity(chiefToOperate));
-            _unitOfWork.Save();
-            // TODO transactions check
+            // TODO посмотреть апдейт
+            // _unitOfWork.ChiefRepository.Update(_chiefMapper.convertToEntity(chiefToOperate));
+            // _unitOfWork.Save();
             return orderBeReady;
         }
     }
