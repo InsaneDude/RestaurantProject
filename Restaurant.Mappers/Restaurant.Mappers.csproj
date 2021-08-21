@@ -60,10 +60,6 @@
         <Project>{1a7bc920-f1d0-47a2-94f0-088b814b927e}</Project>
         <Name>Restaurant.Models</Name>
       </ProjectReference>
-      <ProjectReference Include="..\Restaurant.VModels\Restaurant.VModels.csproj">
-        <Project>{81989cf5-7215-4a7d-b502-8106902496f6}</Project>
-        <Name>Restaurant.VModels</Name>
-      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

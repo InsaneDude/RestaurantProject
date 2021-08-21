@@ -125,8 +125,7 @@
         "type": "project",
         "dependencies": {
           "Restaurant.DAL": "1.0.0",
-          "Restaurant.Models": "1.0.0",
-          "Restaurant.VModels": "1.0.0"
+          "Restaurant.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Restaurant.Mappers.dll": {}
@@ -142,15 +141,6 @@
         },
         "runtime": {
           "bin/placeholder/Restaurant.Models.dll": {}
-        }
-      },
-      "Restaurant.VModels/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Restaurant.VModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurant.VModels.dll": {}
         }
       }
     },
@@ -278,8 +268,7 @@
         "type": "project",
         "dependencies": {
           "Restaurant.DAL": "1.0.0",
-          "Restaurant.Models": "1.0.0",
-          "Restaurant.VModels": "1.0.0"
+          "Restaurant.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Restaurant.Mappers.dll": {}
@@ -295,15 +284,6 @@
         },
         "runtime": {
           "bin/placeholder/Restaurant.Models.dll": {}
-        }
-      },
-      "Restaurant.VModels/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Restaurant.VModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Restaurant.VModels.dll": {}
         }
       }
     }
@@ -512,11 +492,6 @@
       "type": "project",
       "path": "../Restaurant.Models/Restaurant.Models.csproj",
       "msbuildProject": "../Restaurant.Models/Restaurant.Models.csproj"
-    },
-    "Restaurant.VModels/1.0.0": {
-      "type": "project",
-      "path": "../Restaurant.VModels/Restaurant.VModels.csproj",
-      "msbuildProject": "../Restaurant.VModels/Restaurant.VModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

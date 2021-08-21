@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
 using Restaurant.BL.Services.Abstract;
@@ -40,11 +41,12 @@ namespace Restaurant.CLI
                         Console.WriteLine("Меню : ");
                         for (int i = 0; i < menuService.ShowMenu().Count; i++)
                         {
-                            // мб StringBuilder тут
-                            Console.WriteLine($"Блюдо #{menuService.ShowMenu()[i].Id}" +
+                            StringBuilder menuOutput = new StringBuilder();
+                            menuOutput.Append($"Блюдо #{menuService.ShowMenu()[i].Id}" +
                                               $" {menuService.ShowMenu()[i].Name}, " +
                                               $"весит {menuService.ShowMenu()[i].Weight}. " +
                                               $"Ингредиенты : {menuService.ShowMenu()[i].Ingredients}.");
+                            Console.WriteLine(menuOutput);
                         }
                         Console.WriteLine();
                         break;
@@ -56,13 +58,14 @@ namespace Restaurant.CLI
                             Console.WriteLine("Такого блюда не существует.");
                             break;
                         }
-                        Console.WriteLine($"Заказ будет выполнен в : {chiefService.CountingFinalTime(orderService.AddOrder(foodToOrderNum))}");
+                        Console.WriteLine("Заказ будет выполнен в : " +
+                                          $"{chiefService.CountingFinalTime(orderService.AddOrder(foodToOrderNum))}");
                         break;
                     case 3:
                         Console.WriteLine("Завершение работы программы.");
                         return;
                 }
             }
-        }
-    }       
+        } 
+    } 
 }

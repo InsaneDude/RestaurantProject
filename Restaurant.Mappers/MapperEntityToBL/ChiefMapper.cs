@@ -18,7 +18,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
             {
                 return new ChiefEntity 
                 { 
-                    Name = model.Name, 
+                    Name = model.Name, // ?
                     Level = model.Level,
                     IsFree = model.IsFree, 
                     Id = model.Id,
@@ -47,7 +47,6 @@ namespace Restaurant.Mappers.MapperEntityToBL
                     Instrument = _instrumentMapper.convertToModel(entity.Instrument)
                 };
             }
-            // TODO Спросить тут
             return new Chief 
             {
                 Name = entity.Name, 

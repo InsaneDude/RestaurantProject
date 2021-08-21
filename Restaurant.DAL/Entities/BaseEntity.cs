@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Restaurant.DAL.Entities
 {
     public abstract class BaseEntity<T>

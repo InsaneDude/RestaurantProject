@@ -10,7 +10,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
         {
             return new InstrumentEntity
             {
-                Name = model.Name,
+                Name = model.Name, // ?
                 WarmingTime = model.WarmingTime,
                 IsInstrumentFree = model.IsInstrumentFree,
                 Id = model.Id,

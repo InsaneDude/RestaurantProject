@@ -10,10 +10,10 @@ namespace Restaurant.Mappers.MapperEntityToBL
         {
             return new FoodEntity 
             { 
-                Name = model.Name, 
+                Name = model.Name, // ?
                 Weight = model.Weight, 
-                CookingTime = model.CookingTime,
-                Ingredients = model.Ingredients, 
+                CookingTime = model.CookingTime, // ?
+                Ingredients = model.Ingredients, // ?
                 FoodNeedInstrument = model.FoodNeedInstrument, 
                 Id = model.Id 
             };
@@ -23,7 +23,7 @@ namespace Restaurant.Mappers.MapperEntityToBL
         {
             return new Food 
             { 
-                Name = entity.Name, 
+                Name = entity.Name,
                 Weight = entity.Weight, 
                 CookingTime = entity.CookingTime, 
                 Ingredients = entity.Ingredients, 

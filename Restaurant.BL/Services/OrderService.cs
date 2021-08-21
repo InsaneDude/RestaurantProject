@@ -21,7 +21,6 @@ namespace Restaurant.BL.Services
             _orderMapper = orderMapper;
             _foodMapper = foodMapper;
         }
-        // ?
 
         public List<Order> GetAllOrders()
         {
