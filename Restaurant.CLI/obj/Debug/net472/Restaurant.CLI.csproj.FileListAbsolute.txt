@@ -22,8 +22,6 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\obj\Debug\ne
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\obj\Debug\net472\Restaurant.CLI.exe
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\obj\Debug\net472\Restaurant.CLI.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Mappers.dll
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.VModels.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Mappers.pdb
-C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.VModels.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Models.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Models.pdb
