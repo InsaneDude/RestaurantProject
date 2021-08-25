@@ -4,3 +4,9 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Debug
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Debug\Restaurant.Models.csproj.CoreCompileInputs.cache
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Debug\Restaurant.Models.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Debug\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Debug\Restaurant.Models.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Debug\EntityFramework.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Debug\EntityFramework.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Debug\Restaurant.Models.csproj.CopyComplete

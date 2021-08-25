@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.BL;
+using Restaurant.BL.Services;
+using Restaurant.BL.Services.Abstract;
 using Restaurant.DAL;
 using Restaurant.WPF.ViewModels;
 
@@ -18,13 +20,18 @@ namespace Restaurant.WPF
             var services = new ServiceCollection();
             services.RegisterDAL();
             services.RegisterBL();
-            services.AddScoped<MainWindowViewModel>();
-            _serviceProvider = services.BuildServiceProvider(); 
+            services.AddTransient<MainWindowViewModel>();
+            _serviceProvider = services.BuildServiceProvider();
         }
+        
         protected override void OnStartup(StartupEventArgs e)
         {
+            base.OnStartup(e);
             MainWindow mainWindow = new MainWindow();
-            mainWindow.DataContext = _serviceProvider.GetService<MainWindowViewModel>();
+            MainWindowViewModel context = _serviceProvider.GetService<MainWindowViewModel>();
+            var menuService = _serviceProvider.GetService<IMenuService>();
+            mainWindow.DataContext = context;
+            mainWindow.Show();
         }
     }
 }

@@ -4,18 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Restaurant.WPF"
+        xmlns:viewModels="clr-namespace:Restaurant.WPF.ViewModels"
         mc:Ignorable="d"
         Title="Ресторан" Height="300" Width="425">
+    
     <Grid>
-        <Canvas Background="Linen">
-            <TextBlock Canvas.Top="15" Canvas.Left="15" 
-                       FontFamily="Calibri" FontSize="15" 
-                       FontWeight="Bold">Список доступной еды</TextBlock>
-            <ListBox DataContext="{Binding ElementName= FoodOC, Path = x}" ItemsSource="{Binding FoodOC }" Canvas.Top="32" Canvas.Left="20"
-                     SelectedItem="{Binding SelectedFoodToOrder}"/>
-            <Button Canvas.Top="100" Canvas.Left="200"
-                    Height="50" Width="200" Content="Заказать выбранную еду"
-                    Command="{Binding MakeOrderRC}"></Button>
-        </Canvas>
+        <TextBlock Margin="15,15,0,0"
+               FontFamily="Calibri" FontSize="15" 
+               FontWeight="Bold">Список доступной еды</TextBlock>
+        <ListBox ItemsSource="{Binding FoodOC}" Margin="20,32,0,0"
+                 SelectedItem="{Binding SelectedFoodFromList}"/>
+            <Label Content = "{Binding test}" Margin="200,0,0,0"/>
+        <Button Margin="200,100,0,0"
+                Height="50" Width="200" Content="Заказать выбранную еду"
+                Command="{Binding MakeOrderRC}"></Button>
     </Grid>
 </Window>

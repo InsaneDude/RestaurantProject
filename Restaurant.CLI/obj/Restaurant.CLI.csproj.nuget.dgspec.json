@@ -102,6 +102,12 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       },
@@ -165,6 +171,16 @@
         "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj",
         "projectName": "Restaurant.Mappers",
         "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\Restaurant.Mappers.csproj",
+        "packagesPath": "C:\\Users\\insane_dude\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\insane_dude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "projectReferences": {
@@ -176,7 +192,8 @@
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Mappers\\packages.config"
       },
       "frameworks": {
         "net472": {}
@@ -187,11 +204,22 @@
         "projectUniqueName": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
         "projectName": "Restaurant.Models",
         "projectPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
+        "packagesPath": "C:\\Users\\insane_dude\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\insane_dude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net472": {
             "projectReferences": {}
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\insane_dude\\RiderProjects\\RestaurantProject\\Restaurant.Models\\packages.config"
       },
       "frameworks": {
         "net472": {}

@@ -35,3 +35,8 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Sy
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF.exe.config
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Models.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\EntityFramework.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Mappers.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Models.dll.config

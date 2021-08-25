@@ -86,6 +86,7 @@
         <e p="RestaurantDBContext.cs" t="Include" />
       </e>
       <e p="Restaurant.Mappers" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="MapperEntityToBL" t="Include">
           <e p="ChiefMapper.cs" t="Include" />
@@ -103,12 +104,14 @@
           <e p="OrderMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Restaurant.Mappers.csproj" t="IncludeRecursive" />
       </e>
       <e p="Restaurant.Models" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Chief.cs" t="Include" />
         <e p="Food.cs" t="Include" />
@@ -116,7 +119,9 @@
         <e p="Menu.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Order.cs" t="Include" />
+        <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
+          <e p="Annotations.cs" t="Include" />
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Restaurant.Models.csproj" t="IncludeRecursive" />

@@ -22,7 +22,9 @@ namespace Restaurant.BL.Services
         public List<Food> ShowMenu()
         {
             List<Food> Menu = new List<Food>();
-            _unitOfWork.FoodRepository.GetAll().ForEach(foodNow => Menu.Add(_foodMapper.convertToModel(foodNow)));
+            var FoodTest = _unitOfWork.FoodRepository.GetAll();
+            FoodTest.ForEach(foodNow => Menu.Add(_foodMapper.convertToModel(foodNow)));
+            // _unitOfWork.FoodRepository.GetAll().ForEach(foodNow => Menu.Add(_foodMapper.convertToModel(foodNow)));
             return Menu;
         }
     }

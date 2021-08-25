@@ -25,3 +25,5 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\ne
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Mappers.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Models.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Mappers.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.CLI\bin\Debug\net472\Restaurant.Models.dll.config

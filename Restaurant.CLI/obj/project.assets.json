@@ -496,6 +496,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "EntityFramework >= 6.4.4",
       "Restaurant.BL >= 1.0.0"
     ]
   },
@@ -541,6 +542,12 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
+        "dependencies": {
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[6.4.4, )"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     },

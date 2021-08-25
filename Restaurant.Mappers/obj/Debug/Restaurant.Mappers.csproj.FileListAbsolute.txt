@@ -14,3 +14,8 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debu
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\obj\Debug\Restaurant.Mappers.pdb
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Models.dll
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Mappers.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\Restaurant.Models.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\EntityFramework.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Mappers\bin\Debug\EntityFramework.SqlServer.xml

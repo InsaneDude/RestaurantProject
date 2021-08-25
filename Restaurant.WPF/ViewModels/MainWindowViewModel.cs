@@ -8,37 +8,24 @@ namespace Restaurant.WPF.ViewModels
 {
     public class MainWindowViewModel : BaseViewModel
     {
-        private readonly IServiceProvider _serviceProvider;
-
         private readonly IOrderService _orderService;
         private readonly IMenuService _menuService;
         public RelayCommand MakeOrderRC { get; private set; }
 
-        private List<Food> _foods;
         private Food _selectedFoodFromList;
         private Order _order;
         private string _messageToShow;
-        private ObservableCollection<Food> _foodOC { get; set; }
-
-        public MainWindowViewModel(
-            IServiceProvider serviceProvider,
-            IOrderService orderService,
-            IMenuService menuService)
+        private List<Food> _foodOC;
+        
+        public List<string> TestOC { get; set; }
+        public string test { get; set; }
+        // public ObservableCollection<OrderModel> Orders =>
+        //     new(_orderService.GetAllOrders());
+            
+        public List<Food> FoodOC
         {
-            _serviceProvider = serviceProvider;
-            _orderService = orderService;
-            _menuService = menuService;
-            MakeOrderRC = new RelayCommand(obj => MakeOrder());
-            // menuService.ShowMenu().ForEach(foodNow => Foods.Add(foodNow));
-        }
-
-        public ObservableCollection<Food> FoodOC
-        {
-            get => FoodOC;
-            set
-            {
-                _foodOC = new ObservableCollection<Food>(_menuService.ShowMenu());
-            }
+            get => _foodOC;
+            set => _foodOC = value;
         }
 
         public string MessageToShow
@@ -48,16 +35,6 @@ namespace Restaurant.WPF.ViewModels
             { 
                 _messageToShow = value;
                 OnPropertyChanged(MessageToShow);
-            }
-        }
-
-        public List<Food> Foods
-        {
-            get => _foods;
-            set
-            {
-                _foods = value;
-                OnPropertyChanged("Foods");
             }
         }
 
@@ -80,13 +57,29 @@ namespace Restaurant.WPF.ViewModels
                 OnPropertyChanged("OrderToMake");
             }
         }
-
+        
+        public MainWindowViewModel(
+            IOrderService orderService,
+            IMenuService menuService)
+        {
+            _orderService = orderService;
+            _menuService = menuService;
+            MakeOrderRC = new RelayCommand(obj => MakeOrder());
+            test = "testing";
+            // TestOC = new ObservableCollection<string> {"test1", "test2"};
+            var foods = _menuService.ShowMenu();
+            FoodOC = foods;
+            // FoodOC = new ObservableCollection<Food>(new Food[]{new Food(){Name = "apo"}});
+            // FoodOC = new ObservableCollection<Food>(_menuService.ShowMenu());
+            // menuService.ShowMenu().ForEach(foodNow => FoodOC.Add(foodNow));
+        }
+        
         private void MakeOrder()
         {
-            // if (SelectedFoodFromList == null)
-            // {
-            //     _orderService.AddOrder(_selectedFoodFromList.Id);
-            // }
+            if (SelectedFoodFromList == null)
+            {
+                _orderService.AddOrder(_selectedFoodFromList.Id);
+            }
         }
     }
 }
