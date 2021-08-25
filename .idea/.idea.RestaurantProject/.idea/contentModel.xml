@@ -130,13 +130,19 @@
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="index.ico" t="Include" />
+          </e>
+        </e>
+        <e p="index.ico" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="App.g.cs" t="Include" />
             <e p="MainWindow.g.cs" t="Include" />
+            <e p="Restaurant.WPF_Content.g.cs" t="Include" />
           </e>
         </e>
         <e p="packages.config" t="Include" />

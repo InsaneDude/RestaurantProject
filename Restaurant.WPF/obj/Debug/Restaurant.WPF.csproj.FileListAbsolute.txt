@@ -40,3 +40,4 @@ C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\En
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Mappers.dll.config
 C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\bin\Debug\Restaurant.Models.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.WPF\obj\Debug\Restaurant.WPF_Content.g.cs

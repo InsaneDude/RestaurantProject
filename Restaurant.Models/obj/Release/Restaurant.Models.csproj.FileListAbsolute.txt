@@ -1,0 +1,12 @@
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\Restaurant.Models.dll.config
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\Restaurant.Models.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\Restaurant.Models.pdb
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\EntityFramework.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\EntityFramework.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Release\Restaurant.Models.csprojAssemblyReference.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Release\Restaurant.Models.csproj.CoreCompileInputs.cache
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Release\Restaurant.Models.csproj.CopyComplete
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Release\Restaurant.Models.dll
+C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.Models\obj\Release\Restaurant.Models.pdb

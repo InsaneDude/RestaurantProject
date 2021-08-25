@@ -27,160 +27,205 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="wpf((">
-      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Mappers.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Models.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Mappers.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Models.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Mappers.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Models.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/Properties/Annotations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/Restaurant.Models.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.Models/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Mappers.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Models.dll.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/GeneratedInternalTypeHelper.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestaurantProject.sln.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/EntityFramework.6.4.4.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.DefaultItems.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/EntityFramework.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/Microsoft.Data.Entity.Build.Tasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/App.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/App.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/Web.config.install.xdt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/content/net40/Web.config.transform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psd1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psm1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.psd1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/EntityFramework6.psm1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/about_EntityFramework6.help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/init.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/install.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/any/ef6.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/any/ef6.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/win-x86/ef6.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net40/win-x86/ef6.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/any/ef6.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/any/ef6.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/win-x86/ef6.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/net45/win-x86/ef6.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.runtimeconfig.json" afterDir="false" />
+    <list default="true" id="9beb4a18-6604-4e55-8129-a2264b9752b6" name="Default Changelist" comment="test db">
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.BL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.BL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.DAL.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Mappers.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Models.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/Restaurant.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Release/net472/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Release/net472/Restaurant.BL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Release/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Release/net472/Restaurant.CLI.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Release/net472/Restaurant.CLI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Release/net472/Restaurant.CLI.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Release/net472/Restaurant.CLI.exe.withSupportedRuntime.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Restaurant.DAL.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/Restaurant.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Release/net472/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Release/net472/Restaurant.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.DAL.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Mappers.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Models.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/Restaurant.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Release/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Release/Restaurant.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/Restaurant.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/Restaurant.Models.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Release/Restaurant.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Release/Restaurant.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/index.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Bcl.AsyncInterfaces.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Extensions.DependencyInjection.Abstractions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Microsoft.Extensions.DependencyInjection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.BL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.BL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.DAL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.DAL.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.DAL.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Mappers.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Models.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.WPF.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.WPF.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/Restaurant.WPF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Release/System.Threading.Tasks.Extensions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/index.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF_Content.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF_Content.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/App.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/App.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/MainWindow.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/MainWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/MainWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.g.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF_Content.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF_Content.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF_MarkupCompile.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Release/Restaurant.WPF_MarkupCompile.lref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/dataSources/c4d9af9a-314c-48e5-8c50-6e21f546cda3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/dataSources/c4d9af9a-314c-48e5-8c50-6e21f546cda3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/dataSources/c4d9af9a-314c-48e5-8c50-6e21f546cda3/storage_v2/_src_/database/RestaurantDB.m8y_cg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/dataSources/c4d9af9a-314c-48e5-8c50-6e21f546cda3/storage_v2/_src_/database/RestaurantDB.m8y_cg/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestaurantProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/Services/MenuService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/Services/MenuService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.BL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Mappers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Mappers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Mappers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Mappers.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/bin/Debug/net472/Restaurant.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Debug/net472/Restaurant.BL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/Restaurant.BL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/Restaurant.BL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.BL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.BL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/Restaurant.CLI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/Restaurant.CLI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.BL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.CLI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.CLI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.CLI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.CLI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.DAL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Mappers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Mappers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Mappers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Mappers.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/bin/Debug/net472/Restaurant.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Debug/net472/Restaurant.CLI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/Restaurant.CLI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/Restaurant.CLI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.CLI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.CLI/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/Restaurant.Mappers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/Restaurant.Mappers.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/RestaurantDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/RestaurantDBContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/bin/Debug/net472/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Debug/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/bin/Debug/net472/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/bin/Debug/net472/Restaurant.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.DAL/obj/Debug/net472/Restaurant.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Mappers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Mappers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Mappers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Mappers.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/bin/Debug/Restaurant.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/Restaurant.Mappers.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Chief.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Chief.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Food.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Instrument.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Instrument.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/Restaurant.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/Restaurant.Models.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/Restaurant.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/bin/Debug/Restaurant.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.Models/obj/Debug/Restaurant.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/App.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/App.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/Restaurant.WPF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/Restaurant.WPF.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.BL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Mappers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Mappers.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Mappers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Mappers.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.Models.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.exe.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/bin/Debug/Restaurant.WPF.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/App.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
@@ -188,12 +233,9 @@
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.exe.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/obj/Debug/Restaurant.WPF_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Restaurant.WPF/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.WPF/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestaurantProject.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantProject.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,11 +251,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C285EE5-6767-4513-BB6D-88C242FEC00E/75/c10b2ad8/Binding.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/cc/e01d768f/InternalSet`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/bc/8b525021/IObjectContextAdapter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Restaurant.Models/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/db/707d53d2/ObjectContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/51/23b90d1b/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/6d/c6f477a7/DbEntityEntry`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5F37459E-F130-4442-BA19-EE268C49D074/e9/a43dccc5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -225,8 +264,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/ec/bd1adc4f/RetryLazy`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/049DE0A9-AF3B-49C1-B950-CAF5912B4C06/11/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Restaurant.Mappers/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/4b/4f6f117e/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C285EE5-6767-4513-BB6D-88C242FEC00E/75/c10b2ad8/Binding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/cc/e01d768f/InternalSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB1249C8-3B29-4653-B504-60CCCA51A675/B/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/bc/8b525021/IObjectContextAdapter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068A3C40-8010-4E51-828A-B210BE168AE8/db/707d53d2/ObjectContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/9e/79b2e448/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/998F2491-CDE6-4F39-9B36-14F82C288B4F/0e/f2295626/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -260,11 +310,9 @@
         <option value="$PROJECT_DIR$/Restaurant.DAL/Repositories/GenericRepository.cs" />
         <option value="$PROJECT_DIR$/Restaurant.Mappers/MapperEntityToBL/ChiefMapper.cs" />
         <option value="$PROJECT_DIR$/Restaurant.DAL/Entities/BaseEntity.cs" />
-        <option value="$PROJECT_DIR$/Restaurant.DAL/App.config" />
         <option value="$PROJECT_DIR$/Restaurant.Mappers/MapperEntityToBL/Interfaces/IMapper.cs" />
         <option value="$PROJECT_DIR$/Restaurant.Mappers/MapperEntityToBL/OrderMapper.cs" />
         <option value="$PROJECT_DIR$/Restaurant.DAL/DependencyRegistator.cs" />
-        <option value="$PROJECT_DIR$/Restaurant.DAL/RestaurantDBContext.cs" />
         <option value="$PROJECT_DIR$/Restaurant.DAL/Repositories/ChiefRepository.cs" />
         <option value="$PROJECT_DIR$/Restaurant.CLI/ConsoleApp.cs" />
         <option value="$PROJECT_DIR$/Restaurant.BL/Services/OrderService.cs" />
@@ -276,12 +324,14 @@
         <option value="$PROJECT_DIR$/Restaurant.WPF/f.xaml" />
         <option value="$PROJECT_DIR$/Restaurant.WPF/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Restaurant.WPF/App.xaml" />
-        <option value="$PROJECT_DIR$/Restaurant.WPF/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/Restaurant.Models/Food.cs" />
-        <option value="$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" />
         <option value="$PROJECT_DIR$/Restaurant.WPF/App.xaml.cs" />
         <option value="$PROJECT_DIR$/Restaurant.BL/ServicesRegistation.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.DAL/App.config" />
         <option value="$PROJECT_DIR$/Restaurant.BL/Services/MenuService.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.WPF/ViewModels/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/Restaurant.WPF/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Restaurant.DAL/RestaurantDBContext.cs" />
       </list>
     </option>
   </component>
@@ -296,8 +346,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.57930005" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30007446" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.5792637" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29977462" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.30164766" />
@@ -307,7 +357,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RiderTodoViewSettings" groupByProject="false" />
-  <component name="RunManager" selected=".NET Project.RestaurantProject">
+  <component name="RunManager" selected=".NET Project.Restaurant.WPF">
     <configuration name="RestaurantProject" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/RestaurantProject/bin/Debug/net472/RestaurantProject.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -436,7 +486,8 @@
       <workItem from="1629716621789" duration="7053000" />
       <workItem from="1629792793200" duration="26436000" />
       <workItem from="1629866166861" duration="6360000" />
-      <workItem from="1629878138745" duration="18780000" />
+      <workItem from="1629878138745" duration="21106000" />
+      <workItem from="1629902485059" duration="8053000" />
     </task>
     <task id="LOCAL-00001" summary="deleted all unnecessary stuff">
       <created>1620289993704</created>
@@ -683,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629867135003</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="test db">
+      <created>1629900352458</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1629900352459</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +764,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="mostly all done for business logic" />
     <MESSAGE value="added menu logic" />
     <MESSAGE value="1 and 2 lab done" />
     <MESSAGE value="remaking project to EF" />
@@ -731,7 +788,8 @@
     <MESSAGE value="deleted useless VModels and reference to it" />
     <MESSAGE value="redacted smth" />
     <MESSAGE value="wpf((" />
-    <option name="LAST_COMMIT_MESSAGE" value="wpf((" />
+    <MESSAGE value="test db" />
+    <option name="LAST_COMMIT_MESSAGE" value="test db" />
   </component>
   <component name="WindowStateProjectService">
     <state x="473" y="236" key="#Notifications" timestamp="1629125231135">
@@ -746,98 +804,98 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1629362988717" />
-    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1624888718396">
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1629901085935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1624888718396" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1629901085935" />
     <state width="408" height="466" key="DebuggerActiveHint" timestamp="1629545811844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="408" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1629545811844" />
-    <state width="1374" height="289" key="GridCell.Tab.0.bottom" timestamp="1629900110494">
+    <state width="1362" height="165" key="GridCell.Tab.0.bottom" timestamp="1629910591751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.0.center" timestamp="1629900110494">
+    <state width="1362" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629910591751" />
+    <state width="1362" height="165" key="GridCell.Tab.0.center" timestamp="1629910591751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.0.left" timestamp="1629900110494">
+    <state width="1362" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629910591751" />
+    <state width="1362" height="165" key="GridCell.Tab.0.left" timestamp="1629910591751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.0.right" timestamp="1629900110494">
+    <state width="1362" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629910591751" />
+    <state width="1362" height="165" key="GridCell.Tab.0.right" timestamp="1629910591751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.1.bottom" timestamp="1629900110494">
+    <state width="1362" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629910591751" />
+    <state width="1362" height="283" key="GridCell.Tab.1.bottom" timestamp="1629910045675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.1.center" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629910045675" />
+    <state width="1362" height="283" key="GridCell.Tab.1.center" timestamp="1629910045675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.1.left" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1629910045675" />
+    <state width="1362" height="283" key="GridCell.Tab.1.left" timestamp="1629910045674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.1.right" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1629910045674" />
+    <state width="1362" height="283" key="GridCell.Tab.1.right" timestamp="1629910045675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.2.bottom" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1629910045675" />
+    <state width="1362" height="283" key="GridCell.Tab.2.bottom" timestamp="1629910045676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.2.center" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629910045676" />
+    <state width="1362" height="283" key="GridCell.Tab.2.center" timestamp="1629910045675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.2.left" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1629910045675" />
+    <state width="1362" height="283" key="GridCell.Tab.2.left" timestamp="1629910045675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.2.right" timestamp="1629900110494">
+    <state width="1362" height="283" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1629910045675" />
+    <state width="1362" height="283" key="GridCell.Tab.2.right" timestamp="1629910045676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1629900110494" />
-    <state width="1374" height="289" key="GridCell.Tab.3.bottom" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1629910045676" />
+    <state width="1362" height="283" key="GridCell.Tab.3.bottom" timestamp="1629910045678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.3.center" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629910045678" />
+    <state width="1362" height="283" key="GridCell.Tab.3.center" timestamp="1629910045677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.3.left" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1629910045677" />
+    <state width="1362" height="283" key="GridCell.Tab.3.left" timestamp="1629910045677">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.3.right" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1629910045677" />
+    <state width="1362" height="283" key="GridCell.Tab.3.right" timestamp="1629910045678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.4.bottom" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1629910045678" />
+    <state width="1362" height="283" key="GridCell.Tab.4.bottom" timestamp="1629910045680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.4.center" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629910045680" />
+    <state width="1362" height="283" key="GridCell.Tab.4.center" timestamp="1629910045679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.4.left" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1629910045679" />
+    <state width="1362" height="283" key="GridCell.Tab.4.left" timestamp="1629910045678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="1374" height="289" key="GridCell.Tab.4.right" timestamp="1629900110495">
+    <state width="1362" height="283" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1629910045678" />
+    <state width="1362" height="283" key="GridCell.Tab.4.right" timestamp="1629910045679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1374" height="289" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1629900110495" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1629125202654">
+    <state width="1362" height="283" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1629910045679" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1629908780462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1629125202654" />
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1629908780462" />
     <state x="305" y="147" key="IDE.errors.dialog" timestamp="1624641136771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -862,14 +920,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="92" y="100" width="1246" height="630" key="VCS.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1629822043887" />
-    <state x="339" y="143" key="Vcs.Push.Dialog.v2" timestamp="1629889172884">
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2" timestamp="1629900353217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629889172884" />
-    <state width="722" height="412" key="XDebugger.FullValuePopup" timestamp="1629900013297">
+    <state x="339" y="143" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629900353217" />
+    <state width="722" height="412" key="XDebugger.FullValuePopup" timestamp="1629907434710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="412" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1629900013297" />
+    <state width="722" height="412" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1629907434710" />
     <state x="540" y="172" width="312" height="497" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1629900109008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -894,6 +952,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1624637594222" />
+    <state x="256" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1629902929737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="256" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1629902929737" />
     <state x="426" y="190" key="run.anything.popup" timestamp="1629898467840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -906,18 +968,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+        <line-breakpoint type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Restaurant.BL/Services/MenuService.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\Services\MenuService.cs" initialLine="23">
+          <line>26</line>
+          <properties documentPath="C:\Users\insane_dude\RiderProjects\RestaurantProject\Restaurant.BL\Services\MenuService.cs" initialLine="26">
             <startOffsets>
-              <option value="656" />
+              <option value="862" />
+              <option value="917" />
             </startOffsets>
             <endOffsets>
-              <option value="691" />
+              <option value="964" />
+              <option value="962" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
