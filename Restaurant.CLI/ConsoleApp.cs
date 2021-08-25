@@ -42,10 +42,14 @@ namespace Restaurant.CLI
                         for (int i = 0; i < menuService.ShowMenu().Count; i++)
                         {
                             StringBuilder menuOutput = new StringBuilder();
-                            menuOutput.Append($"Блюдо #{menuService.ShowMenu()[i].Id}" +
-                                              $" {menuService.ShowMenu()[i].Name}, " +
-                                              $"весит {menuService.ShowMenu()[i].Weight}. " +
-                                              $"Ингредиенты : {menuService.ShowMenu()[i].Ingredients}.");
+                            menuOutput.AppendFormat("Блюдо #{0} : ", menuService.ShowMenu()[i].Id);
+                            menuOutput.AppendFormat("{0}, ", menuService.ShowMenu()[i].Name);
+                            menuOutput.AppendFormat("весит {0}. ", menuService.ShowMenu()[i].Weight);
+                            menuOutput.AppendFormat("Ингредиенты : {0}.", menuService.ShowMenu()[i].Ingredients);
+                            // menuOutput.Append($"Блюдо #{menuService.ShowMenu()[i].Id}" +
+                            //                   $" {menuService.ShowMenu()[i].Name}, " +
+                            //                   $"весит {menuService.ShowMenu()[i].Weight}. " +
+                            //                   $"Ингредиенты : {menuService.ShowMenu()[i].Ingredients}.");
                             Console.WriteLine(menuOutput);
                         }
                         Console.WriteLine();

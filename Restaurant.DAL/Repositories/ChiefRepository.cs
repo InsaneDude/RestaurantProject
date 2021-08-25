@@ -7,6 +7,7 @@ namespace Restaurant.DAL.Repositories
     {
         public ChiefRepository(RestaurantDBContext context) : base(context)
         {
+            
         }
     }
 }

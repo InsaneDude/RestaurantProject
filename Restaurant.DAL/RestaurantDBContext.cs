@@ -11,7 +11,7 @@ namespace Restaurant.DAL
             modelBuilder.HasDefaultSchema("dbo");
             base.OnModelCreating(modelBuilder);
         }
-        
+
         public RestaurantDBContext() : base("RestaurantDBConnStr") { }
         public DbSet<ChiefEntity> Chiefs { get; set; }
         public DbSet<InstrumentEntity> Instruments { get; set; }

@@ -1,4 +1,3 @@
-using System.Net.Mime;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurant.DAL.Repositories;
 using Restaurant.DAL.Repositories.Interfaces;
@@ -19,6 +18,5 @@ namespace Restaurant.DAL
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
             return serviceCollection;
         }
-        // В який момент часу буде викликаний конструктор restaurantdbcontext
     }
 }

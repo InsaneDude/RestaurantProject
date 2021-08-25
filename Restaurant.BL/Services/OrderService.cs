@@ -11,9 +11,9 @@ namespace Restaurant.BL.Services
 {
     public class OrderService: IOrderService
     {
-        private IUnitOfWork _unitOfWork;
-        private IOrderMapper _orderMapper;
-        private IFoodMapper _foodMapper;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IOrderMapper _orderMapper;
+        private readonly IFoodMapper _foodMapper;
 
         public OrderService(IUnitOfWork unitOfWork, IOrderMapper orderMapper, IFoodMapper foodMapper)
         {

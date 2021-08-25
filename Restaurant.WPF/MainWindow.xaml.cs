@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.Windows;
-using Microsoft.Extensions.DependencyInjection;
-using Restaurant.BL;
-using Restaurant.BL.Services.Abstract;
-using Restaurant.WPF;
+﻿using System.Windows;
 using Restaurant.WPF.ViewModels;
 
 namespace Restaurant.WPF
@@ -14,10 +8,9 @@ namespace Restaurant.WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow(IServiceProvider serviceProvider)
+        public MainWindow()
         {
             InitializeComponent();
-            // this.DataContext = new MainWindowViewModel(serviceProvider);
         }
     }
 }

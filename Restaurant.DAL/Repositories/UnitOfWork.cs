@@ -1,12 +1,12 @@
-using System;
+        using System;
 using Restaurant.DAL.Repositories.Interfaces;
 
 namespace Restaurant.DAL.Repositories
 {
     public class UnitOfWork: IUnitOfWork
     {
-        private RestaurantDBContext context;
-        private bool isDisposed;
+        private readonly RestaurantDBContext _context;
+        private bool _isDisposed;
         
         public UnitOfWork(RestaurantDBContext context, 
         IChiefRepository chiefRepository,
@@ -15,13 +15,24 @@ namespace Restaurant.DAL.Repositories
         IMenuRepository menuRepository,
         IOrderRepository orderRepository)
         {
-            this.context = context;
+            _context = context;
             ChiefRepository = chiefRepository;
             FoodRepository = foodRepository;
             InstrumentRepository = instrumentRepository;
             MenuRepository = menuRepository;
             OrderRepository = orderRepository;
         }
+
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
+        
+        public IChiefRepository ChiefRepository { get; }
+        public IFoodRepository FoodRepository { get; }
+        public IInstrumentRepository InstrumentRepository { get; }
+        public IMenuRepository MenuRepository { get; }
+        public IOrderRepository OrderRepository { get; }
         ~UnitOfWork() { Dispose(false); }
         public void Dispose() 
         {
@@ -30,18 +41,9 @@ namespace Restaurant.DAL.Repositories
         }
         protected virtual void Dispose(bool disposing)
         {
-            if(isDisposed) { return; }
-            if(disposing) { context.Dispose(); }
-            isDisposed = true;
+            if(_isDisposed) { return; }
+            if(disposing) { _context.Dispose(); }
+            _isDisposed = true;
         }
-        public void Save()
-        {
-            context.SaveChanges();
-        }
-        public IChiefRepository ChiefRepository { get; }
-        public IFoodRepository FoodRepository { get; }
-        public IInstrumentRepository InstrumentRepository { get; }
-        public IMenuRepository MenuRepository { get; }
-        public IOrderRepository OrderRepository { get; }
     }
 }
